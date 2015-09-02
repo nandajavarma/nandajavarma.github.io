@@ -1,6 +1,6 @@
 ---
 layout: page
-title: This is me!
+title: Who I Am
 tags: [about, gem]
 modified: 2014-08-08T20:53:07.573882-04:00
 comments: true
