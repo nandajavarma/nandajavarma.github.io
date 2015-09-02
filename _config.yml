@@ -15,7 +15,6 @@ sass:
   style: compressed
 gems:
   - jekyll-sitemap
-  - jekyll-redirect-from
 
 kramdown:
   auto_ids: true
@@ -32,6 +31,7 @@ owner:
   bio: "Coder, Jedi, Avid reader, Feminist, Wears Red Hat, Malayali, Kick Boxing noob, Cyclist, Major Procrastinator,..."
   irc: gem (Freenode)
   email: nvarma@redhat.com
+  disqus-shortname: nandaja
   twitter: nandajavarma
   google:
     plus: NandajaVarma
