@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title:            GemIAm
 locale:           en_US
 url:
 
@@ -26,36 +26,15 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email:
-  disqus-shortname:
-  twitter: #username
-  facebook: #username
+  name: Nandaja
+  avatar: index.jpg
+  bio: "Coder, Jedi, Avid reader, Wears Red Hat, Kick Boxing noob, Cyclist, Major Procrastinator,..."
+  IRC: gem (Freenode)
+  twitter: @nandajavarma
   google:
-    plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
-  github: #username
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
-  codepen: #username
+    plus: NandajaVarma
+  github: nandajavarma
+  linkedin: nandaja-varma
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
