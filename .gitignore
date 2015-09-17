@@ -6,3 +6,10 @@ _site
 codekit-config.json
 node_modules
 _asset_bundler_cache
+
+# Swap files (For Vim die hards)
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*~
+
+.ruby-version
