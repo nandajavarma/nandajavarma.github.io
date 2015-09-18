@@ -45,7 +45,7 @@ Most of the work is yet to be done. Presently, the system is not that efficient 
 We are a bunch of people, who strongly believe that the future is distributed, working together to make a small step towards the next big change. The 5 of us involved with this project are:
 
 1. <a href="http://aurelieherbelot.net/">Aurelie Herbelot</a>
-2. <a href="stultus.in">Hrishikesh K.B.</a>
+2. <a href="http://stultus.in">Hrishikesh K.B.</a>
 3. Veesa Norman
 4. Shobha Tyagi
 <br/>and of course me. :)
