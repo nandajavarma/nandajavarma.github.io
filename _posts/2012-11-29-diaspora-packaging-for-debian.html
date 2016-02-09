@@ -1,0 +1,45 @@
+---
+layout: post
+title: Diaspora packaging for Debian
+date: 2012-11-29 08:59:00.000000000 +05:30
+type: post
+published: true
+status: publish
+categories:
+- Packaging
+tags:
+- Debian
+- Diaspora
+- GNU/Linux
+- Ruby
+meta:
+  blogger_blog: skillwillprevail.blogspot.com
+  blogger_author: Nandaja Varma
+  blogger_edcba71fdd064ece462fa9d9db635047_permalink: '1902569521943720145'
+  _edit_last: '41605810'
+  _oembed_89d5c6b5178d9937f633366ebad62ae7: "{{unknown}}"
+  _oembed_bc5b9a7e39798df0f004fadf66840f65: "{{unknown}}"
+  _oembed_aa63e157de276cab41d869f6ac210e61: "{{unknown}}"
+author:
+  login: nandajavarma
+  email: nandaja.varma@gmail.com
+  display_name: Nandaja
+  first_name: ''
+  last_name: ''
+---
+<div dir="ltr" style="text-align:left;">
+<p><span style="font-family:Times, Times New Roman, serif;">Here are the steps I followed while  packaging diaspora for debian.</span></p>
+<div><span style="font-family:Times, Times New Roman, serif;">My ultimate guide for debian-diaspora packaging has been this piratepad document :</span></div>
+<div><a href="http://piratepad.net/tu0H1eU2vH">http://piratepad.net/tu0H1eU2vH</a><span style="font-family:Times, Times New Roman, serif;"><br />
+</span></p>
+<div><span style="font-family:Times, Times New Roman, serif;">Diaspora is built on Ruby on Rails platform. In Ruby programming language, the software packages are called 'RubyGems' or simply 'Gems'. Gems contain a packaged Ruby application or library<span style="color:#222222;font-size:16px;line-height:24px;">.</span> So basically our task is to convert this RubyGem into debian file format.</span></div>
+</div>
+<div><span style="font-family:Times, Times New Roman, serif;">There are numerous number of gems upon which diaspora is depending. To complete the debian packaging of whole diaspora software we will have to package each and every one of these gems. So our first step towards packaging is select a gem which is a dependency for diaspora and that hasn't been packaged yet. You can easily pick one from the above mentioned pirate pad document.</span></div>
+<div><span style="font-family:Times, 'Times New Roman', serif;"> Make sure you pick a gem that does not have any other gems as dependencies that aren't packaged yet. If  the gem you picked has such dependencies, then package the latter gem first and then proceed with the former. </span></div>
+<div><span style="font-family:Times, 'Times New Roman', serif;">Once you've selected your gem, it is time to file an ITP i.e. Intent To Package. A sample ITP is here:</span><a href="http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=691256">http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=691256</a>. You'll get all the information regarding your gem from rubygems.org or from the corresponding upstream file at github. We have to mail our ITP to the debian bug tracking system specifying the package name and a short description as the subject line. Never use rich text.</div>
+<div>Once you've send in your ITP and you got the confirmation, you are good to go with your packaging. It is quite natural that you will end up sending a buggy ITP receiving an error message. But BTS is really easy to work with and I got all such information regarding BTS from <a href="http://www.debian.org/Bugs/server-control">http://www.debian.org/Bugs/server-control</a>.</div>
+<div>So here ends the preps regarding the gem, you need to do before getting started with packaging.</div>
+<div>Will get to the fun stuff in my next post.</div>
+<div>For more links on packaging <a title="Nadir's blog" href="http://resident.dyndns.info/content/wordpress/?p=282">go here</a>!</div>
+<div>Cheers.</div>
+</div>

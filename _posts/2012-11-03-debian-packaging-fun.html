@@ -1,0 +1,61 @@
+---
+layout: post
+title: Debian Packaging fun
+date: 2012-11-03 21:10:00.000000000 +05:30
+type: post
+published: true
+status: publish
+categories:
+- Packaging
+tags:
+- computer
+- Debian
+- Diaspora
+- Ruby
+- technology
+meta:
+  blogger_blog: skillwillprevail.blogspot.com
+  blogger_author: Nandaja Varma
+  blogger_edcba71fdd064ece462fa9d9db635047_permalink: '1422221102353654085'
+  _edit_last: '41605810'
+  _oembed_ba4b147f02b712f09dbfe176679fd966: "{{unknown}}"
+author:
+  login: nandajavarma
+  email: nandaja.varma@gmail.com
+  display_name: Nandaja
+  first_name: ''
+  last_name: ''
+---
+<div dir="ltr" style="text-align:left;">
+<div class="separator" style="clear:both;text-align:center;"><a style="clear:left;float:left;margin-bottom:1em;margin-right:1em;" href="http://nandajavarma.files.wordpress.com/2012/11/debian_splash11.png"><img alt="" src="{{ site.baseurl }}/assets/debian_splash11.png?w=284" width="189" height="200" /></a></div>
+<p><b>NO CODING INVOLVED,WHATSOEVER... :-)</b></p>
+<p>I've been working on debian packaging of diaspora for a while now. At some places, I'm still not completely sure what I'm doing. Anyways, the journey so far, has been fun (and not to mention,Educational!).</p>
+<p>Now I'd like to explain what I've been doing actually.In my last post, I described  diaspora. It is a free personalized social networking site. It is built in Ruby on Rails platform. What we are basically trying to do is, make a package of this software in debian so that if we run in terminal the command :<br />
+sudo apt-get install diaspora<br />
+voila!. Diaspora is  in your PC. :-D</p>
+<div class="separator" style="clear:both;text-align:center;"><a style="clear:right;float:right;margin-bottom:1em;margin-left:1em;" href="http://nandajavarma.files.wordpress.com/2012/11/images.jpeg"><img alt="" src="{{ site.baseurl }}/assets/images.jpeg?w=206" width="168" height="200" /></a></div>
+<p>This free software diaspora,obviously,depends on numerous of libraries or gems (so they are called in Ruby programming language). Our job is to  convert each and every single one of these gems into deb file format.And for doing so there is a debian ruby package suite called gem2deb. So to convert the gem into deb format we will have to run:<br />
+gem2deb &lt;Gem name&gt;<br />
+Sounds easy,huh?But not so easy actually. Now comes the fun part-'tests'. :-).<br />
+In programming languages like C, we use many built-in libraries like stdio, conio, stdlib etc. To check if these libraries are working properly, We can simply make a program which  includes this library and implement functions that comes under the specified library.<br />
+For eg:<br />
+If you want to check if the stdio i.e standard I/O library is working properly a program like this can be used :<br />
+#include<br />
+int main(void)<br />
+{<br />
+char name;<br />
+printf("Enter your name:");<br />
+scanf("%c",&amp;name);<br />
+printf("Hello,%c\n",name);<br />
+return 0;<br />
+}<br />
+If the above program gives the output:</p>
+<p>Enter your name:Nandaja<br />
+Hello,Nandaja</p>
+<p>Then we can say that yes our standard I/O library is working properly.AFAIK,similar is the concept of test files in Ruby. They check if the ruby gems are working properly for our package.If the tests run without failure in the first run itself,yay..kudos to you:). If the  test  fails,you will have to go looking for the dependencies,the test files used and whatever makes it work.</p>
+<p>Once you've got the tests running successfully(No,don't be happy yet...), you can say 'Hey,I've started packaging!':D. Yes,the interesting steps are yet to come. :-)</p>
+<p>I will  start writing the steps I followed,the problems I faced and my yet-to-be-cleared doubts  in my upcoming posts. It will definitely help me recollect what all I've done so far and also I can use them later to brush up my memory. Also, I can refer these posts if someone asks me about packaging. On second thought, No, I don't think so.. :-D<br />
+If anyone want to know about packaging diaspora,I would refer to you the wonderful wiki page. It's still under construction, But it has already started proving quite legible and clean. :-)<br />
+<a href="https://wiki.debian.org/Diaspora/packaging/">https://wiki.debian.org/Diaspora/packaging/</a></p>
+<p>Cioa.</p>
+</div>

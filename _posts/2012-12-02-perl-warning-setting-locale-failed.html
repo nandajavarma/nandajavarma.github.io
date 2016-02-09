@@ -1,0 +1,36 @@
+---
+layout: post
+title: 'perl: warning: Setting locale failed. - Fixed'
+date: 2012-12-02 17:58:42.000000000 +05:30
+type: post
+published: true
+status: publish
+categories:
+- What I learned today
+tags:
+- computer
+- Debian
+- GNU/Linux
+- technology
+- terminal
+meta:
+  _publicize_pending: '1'
+  _edit_last: '41605810'
+author:
+  login: nandajavarma
+  email: nandaja.varma@gmail.com
+  display_name: Nandaja
+  first_name: ''
+  last_name: ''
+---
+<p>Today when I was trying to build a package on a Debian VPS, It started reporting really annoying messages like these:</p>
+<p>perl: warning: Setting locale failed.<br />
+perl: warning: Please check that your locale settings:<br />
+LANGUAGE = (unset),<br />
+LC_ALL = (unset),<br />
+LANG = "en_US.UTF-8"<br />
+are supported and installed on your system.<br />
+perl: warning: Falling back to the standard locale ("C").</p>
+<p>Then I was trying to install a new package, I got them again. Eventhough it doesn't cause any harm, a screen full of such messages really is annoying. I googled it and found out that I am not the only person with this problem. I could find a couple of solutions for this and the easiest one worked for me. Run the following command in your terminal:</p>
+<p>export LC_ALL=C</p>
+<p>Now it has stopped complaining. :-)</p>

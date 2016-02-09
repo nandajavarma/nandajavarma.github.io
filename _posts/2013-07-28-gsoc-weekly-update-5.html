@@ -1,0 +1,39 @@
+---
+layout: post
+title: 'GSoC weekly update #5'
+date: 2013-07-28 10:33:35.000000000 +05:30
+type: post
+published: true
+status: publish
+categories:
+- What I learned today
+tags:
+- GSoC
+- harfbuzz
+- SMC
+meta:
+  _publicize_pending: '1'
+  _edit_last: '41605810'
+  geo_public: '0'
+  _oembed_b5ba3722b0f61518ef8dcaace9a09dd1: "{{unknown}}"
+  _oembed_171cd50953a8d54167e232d2bc7b2361: "{{unknown}}"
+author:
+  login: nandajavarma
+  email: nandaja.varma@gmail.com
+  display_name: Nandaja
+  first_name: ''
+  last_name: ''
+---
+<p>The works this week has been a little slow with college exams and assignments. This is what I have done so far this week.</p>
+<p>I have completed the list of reference files containing glyph names of 243 words from four fonts each. Fonts being: Rachana, Meera, Suruma and Lohit-Malayalaam.</p>
+<p>The code has been modified to equip not only harfbuzz renderings but renderings from other engines line Uniscribe, provided the user will produce the output of the rendering engine herself/himself. I have created a Python package containing 2 modules each for testing and creating output. The main script automated_rendering_testing.py  will make use of this package to test and give the final result. To test the framework, one can just run ./automated_rendering_testing and then provide the necessary  information, when asked.</p>
+<p>Coming to the tester, first it will compare the reference file and the rendering output. The it will create a file named result.txt containing the wrongly rendered words along with the number corresponding to the word in test cases' file. This file is used only to create the png file of the wrongly rendered words, if the engine is harfbuzz. Other wise this file is ignored. Now the actual output is a file test_result.txt with the format:</p>
+<p>Sl.No Word Rendering status(correct/wrong)</p>
+<p>User can view this file, see the status and see the wrongly rendered word.</p>
+<p>The framework works this way now: <a href="http://nandajavarma.files.wordpress.com/2013/07/screenshot-from-2013-07-28-155652.png"><img class="size-full wp-image" id="i-1366" alt="Image" src="{{ site.baseurl }}/assets/screenshot-from-2013-07-28-155652.png?w=650" /></a></p>
+<p>And this would be the output.png file. (As I chose harfbuzz here)</p>
+<p><a href="http://nandajavarma.files.wordpress.com/2013/07/screenshot-from-2013-07-28-155950.png"><img class="size-full wp-image" id="i-1370" alt="Image" src="{{ site.baseurl }}/assets/screenshot-from-2013-07-28-155950.png?w=158" /></a></p>
+<p>And the test_result.txt file would look like this:</p>
+<p><a href="http://nandajavarma.files.wordpress.com/2013/07/screenshot-from-2013-07-28-160136.png"><img class="size-full wp-image" id="i-1372" alt="Image" src="{{ site.baseurl }}/assets/screenshot-from-2013-07-28-160136.png?w=569" /></a></p>
+<p>The agenda for this week is to re-write the whole code in C.</p>
+<p>My code is available here: <a href="https://github.com/nandajavarma/Automated-Rendering-Testing">https://github.com/nandajavarma/Automated-Rendering-Testing</a></p>
