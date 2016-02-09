@@ -6,3 +6,6 @@
 - title: All Posts
   url: /posts/
 
+
+- title: Feed
+  url: /feed.xml
