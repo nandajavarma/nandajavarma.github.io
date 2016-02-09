@@ -11,7 +11,7 @@ image:
 <h3>My Name: Nandaja</h3>
 
 I can tell you one thing that even Google doesn't know: The meaning of my name.
-<br/><br/>So here is some mythical history...
+<br/><br/>So here is some background...
 
 According to the Hindu mythology, The Hindu lord Krishna was born in a prison cell when his parents
 were imprisoned by his uncle. Since it was prophecied that he will grow up to be a prodigy, considering the possible life threat he has in cell, he was secretly taken out by his Foster parent Nanda who leaves his own daughter in Krishna's place so the evil uncle will not be suspicious.
