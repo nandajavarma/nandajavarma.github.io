@@ -8,7 +8,7 @@ image:
   feature:
 ---
 
-####My Name: Nandaja
+<h3>My Name: Nandaja</h3>
 
 I can tell you one thing that even Google doesn't know: The meaning of my name.
 <br/><br/>So here is some mythical history...
@@ -32,7 +32,7 @@ In conclusion, *<b>Nandaja</b> is someone who is destined to transform the rando
 
 
 
-####About me:
+<h3>About me:</h3>
 
 
 I am a software developer by both profession and interest. Finds home coding in Python.
