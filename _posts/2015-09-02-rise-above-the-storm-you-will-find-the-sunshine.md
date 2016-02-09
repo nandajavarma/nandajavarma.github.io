@@ -24,4 +24,6 @@ I learn from my mistakes and I believe it is better to be late than never to be.
 I guess, I am in for a fun ride this time! Adieu! :-)
 <br/><br/>
 I used to blog **<a href="http://nandajavarma.wordpress.com">here</a>** before.
-If anyone wants to checkout any of my older posts head over there. I have no plans of exporting them here.
+If anyone wants to checkout any of my older posts head over there or
+check them out in the <a href="http://gemiam.in/posts/">All Posts</a>
+section.
