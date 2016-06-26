@@ -1,0 +1,52 @@
+---
+layout: post
+title: 'Quick tip: Installing a software in linux using files in .run format'
+date: 2012-12-15 07:57:40.000000000 +05:30
+type: post
+published: true
+status: publish
+categories:
+- What I learned today
+tags:
+- binary
+- executable
+- GNU/Linux
+- installation
+- Linux
+- mod bits
+- package
+- software
+- technology
+- terminal
+- Ubuntu
+meta:
+  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";i:0;s:6:"author";s:8:"41605810";s:7:"blog_id";s:8:"42178536";s:9:"mod_stamp";s:19:"2012-12-15
+    09:25:29";}
+  _publicize_pending: '1'
+  _edit_last: '41605810'
+  _oembed_f9dbc22f1a276d2d690a3447bd0a3785: "{{unknown}}"
+author:
+  login: nandajavarma
+  email: nandaja.varma@gmail.com
+  display_name: Nandaja
+  first_name: ''
+  last_name: ''
+---
+<p>The .run files are binary executable files. These files need to be executed to install the software. Such files are often considered as unsafe as we cannot find a way to uninstall them and we cannot say what the code will do to your system. But some games and apps are available that are packaged in this file format. Installing using .run file is rather easy.</p>
+<p>First of all download the required .run file.</p>
+<p style="text-align:left;">For example, in your terminal run the command:</p>
+<p style="text-align:center;"><strong>wget -c &lt; URL to the .run file &gt;</strong></p>
+<p style="text-align:left;">(Get the .run file as you wish. I just mentioned<strong> wget</strong> here because it is one of my favorite GNU/Linux utilities. It enables a very nifty download of files from internet and the tab <strong>-c</strong> can help you get data from a partially downloaded file. If the file to be downloaded is quite bulky and you don't trust your Internet connection then <strong>-c</strong> tab is what you need.)</p>
+<p style="text-align:left;">Method 1:</p>
+<p style="text-align:left;">Go to the directory where the .run file is saved and run the following command in your terminal:</p>
+<p style="text-align:center;"><strong>chmod +x foo.run</strong></p>
+<p style="text-align:left;">Here I have arbitrarily named my .run file as foo.run. Here we are using +x to give permission for the owner to execute the file as a program. (If we replace +x with ugo+x, then the user, group and others will get the permission to execute that file as well.)</p>
+<p style="text-align:left;">Now run the executable file, that is, run the command :</p>
+<p style="text-align:center;"><strong>./foo.run</strong></p>
+<p style="text-align:left;">Now the installer will run.</p>
+<p style="text-align:left;">Method 2:</p>
+<p style="text-align:left;">We can do the same steps rather interactively as below.</p>
+<p style="text-align:left;">Right click the .run file and select properties. Under the permission tab check the box that says 'Allow executing file as program' and click close.</p>
+<p style="text-align:left;">Double click the .run file and select 'Run in terminal'.</p>
+<p style="text-align:left;">This will run the installer.</p>
+<p style="text-align:left;">Both worked perfectly in Ubuntu 12.04. If different in other distros please let me know.</p>
