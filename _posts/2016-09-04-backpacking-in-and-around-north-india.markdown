@@ -13,10 +13,10 @@ date: 2016-09-04T22:42:24+05:30
 
 
 When I quit my job, everyone kept asking - ‘So, what next?’ to which I
-politely replied - ‘Nothing decided yet’. In my mind, the plan was well
-made though. I wanted to travel. Where to? I knew that as well. I wanted
+politely replied - ‘Nothing decided yet’. In my mind, I already had the
+plan though. I wanted to travel. Where to? I knew that as well. I wanted
 to explore my vast and diverse country. I thought I will finish off my
-country first and then will go on to the South-East Asia, as if it is
+country first and then will go on to the South-East Asian countries, as if it is
 even possible to “finish off” seeing India. I have been on the road for
 a couple of months now and I haven’t even scratched the surface of the
 country. Every single place I have been so far had some novelty or other
@@ -53,10 +53,10 @@ favourite.</figcaption>
 
 All the stories you hear growing up, how people are so bad in the
 country, why a woman should never travel alone, etc. makes you so
-prejudiced about people. I didn’t even have any bad experiences of the
+prejudiced about people. I didn’t even have a single bad experience of the
 sort (I, of course, travelled sensibly and cautiously not to
 get into trouble). People turned out to be really nice and most of the
-localites were really curious to know why a girl from Kerala is travelling alone in the North.
+localites were curious to know why a girl from Kerala is travelling alone in the North.
 I went completely mental one day and decided to take a local bus from the India-Nepal
 border to Varanasi. The journey took almost 12 hours and was extremely
 uncomfortable. I was the only woman in the bus. The bus driver and the
@@ -84,7 +84,7 @@ own to talk about, leave you inspired and wanderlust-ing more.
 In four days, I am heading back home and I feel like I had to end this
 journey rather abruptly, like I haven’t had enough of it.
 But I think, I will never have enough of it
-because road is where I belong, with all its changing images and an
+because road is where I belong, with changing images but one
 unchanging theme - Life. I return home, not with a heavy heart
 but with a lot of unforgettable experiences, to plan my next adventure.
 
