@@ -44,7 +44,7 @@ ever changing landscapes.
 
 
 <figure>
-    <a href="/images/IMG_1553.jpg"><img src="/images/IMG_1553.jpg"></a>
+    <a href="/images/IMG_1553.JPG"><img src="/images/IMG_1553.JPG"></a>
     <figcaption>Only one word that can describe my feeling when this
 picture was taken - Liberation! And that makes this picture my
 favourite.</figcaption>
