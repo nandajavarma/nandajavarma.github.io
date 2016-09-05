@@ -22,10 +22,10 @@ a couple of months now and I haven’t even scratched the surface of the
 country. Every single place I have been so far had some novelty or other
 to offer. Looking back, this journey has been life changing. The
 experiences I have had - some good and some bad, gave me a lot of
-perspective on my own life. Moreover, I realised how satisfied I am just
+perspective on my own life. Moreover, I realised how perfectly content I am just
 being with myself. I always used to think I was an introvert. I was a
 bit shy in public and never felt comfortable in a big group. Travelling
-alone, when I got so comfortable just being with myself, I started
+alone, when I got so comfortable being with myself, I started
 getting along with people so well. Someone wise once told me - ‘If you
 are not happy being with yourself, you can never be happy being with
 other people’. I understand what he meant now.
@@ -53,7 +53,7 @@ favourite.</figcaption>
 
 All the stories you hear growing up, how people are so bad in the
 country, why a woman should never travel alone, etc. makes you so
-prejudiced about people. I didn’t even have a single bad experience of the
+prejudiced about people. I didn’t even have a single bad experience of that
 sort (I, of course, travelled sensibly and cautiously not to
 get into trouble). People turned out to be really nice and most of the
 localites were curious to know why a girl from Kerala is travelling alone in the North.
