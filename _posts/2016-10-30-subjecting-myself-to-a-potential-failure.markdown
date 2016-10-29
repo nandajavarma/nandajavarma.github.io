@@ -30,9 +30,10 @@ because, Hey, Lambda calculus!).
 
 
 I have decided to try this again this time. I got really inspired by Eli
-Bendersky's notes that he made during his 'taming SICP' endeavor. I am
+Bendersky's <a href="http://eli.thegreenplace.net/tag/sicp">notes</a>
+that he made during his 'taming SICP' endeavor. I am
 going to start SICP again by solving the problems in Clojure instead of
-Scheme. Why I so caught upon a Lisp, you ask? The first thing I ever
+Scheme. Why I'm so caught upon a Lisp, you ask? The first thing I ever
 read about functional programming languages is the way, in pure
 functional programming, the programs are written with such abstraction
 that it is like a black box, doing operation without worrying or caring
@@ -43,10 +44,12 @@ geeks(I promise, this is just a tertiary or a quaternary reason).
 
 I think Clojure is a beautiful looking language. Fell in love with the
 way it binds arguments to functions using square brackets at the very
-first sight. It is JVM based and suits perfectly for the PeARS
-requirements. Also, I was mind blown by the talks given my Rich Hickey.
+first sight. It is JVM based and suits perfectly for the <a
+href="http://pearsearch.org">PeARS</a>
+requirements. Also, I was mind blown by the talks given by Rich Hickey.
 Hands down the best programming talks I've ever listened to(Check it out
-if you haven't yet. Please. Starting here, maybe?).
+if you haven't yet. Please. Starting <a
+href="https://www.youtube.com/watch?v=rI8tNMsozo0">here</a>, maybe?).
 
 
 So this is me putting myself out there. The game plan is laid:
