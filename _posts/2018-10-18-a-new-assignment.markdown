@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A branch new assignment"
+title: "A brand new assignment"
 modified:
 categories:
 excerpt: Just what I am up to now... [Hint: Involves politics ;)]
