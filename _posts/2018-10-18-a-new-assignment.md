@@ -3,7 +3,7 @@ layout: post
 title: "A brand new assignment"
 modified:
 categories:
-excerpt: Just what I am up to now... [Hint: Involves politics ;)]
+excerpt: Just what I am up to now... [Hint- Involves politics ;)]
 tags: [Politics, Learning, Non-techy]
 comments: true
 image:
