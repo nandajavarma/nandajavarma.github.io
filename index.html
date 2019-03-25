@@ -1,0 +1,21 @@
+---
+layout: default
+title: "Nandaja."
+---
+<div class="toc">
+  {% assign sorted = site.texts  | sort  | reverse %}
+  <h2>Read, you must...</h2>
+  <ul class="texts">
+  {% for item in sorted %}
+
+    <li class="text-title">
+      <a href="{{ site.baseurl }}{{ item.url }}">
+        {{ item.title }}
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
+
+
+
