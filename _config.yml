@@ -49,3 +49,4 @@ exclude:
 
 # Theme
 theme: "ed."
+gems: [jekyll-org-mode-converter]
