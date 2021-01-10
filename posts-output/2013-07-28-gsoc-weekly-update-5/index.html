@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Nandaja: GSoC Weekly update #5</title>
+    
+<meta name="keywords" content="terminal,bangalore,edinburgh,debian,india,Recurse Center,ubuntu,oss,nlp,privacy,travel,intro,gsco,linux,beginner,packaging,smc,PeARS,debconf,NYC,life,test">
+
+<meta name="description" content="The works this week has been a little slow with college exams and assignments. This is what I have done so far this week.I have completed the list of reference files containing glyph names of 243 words from four fonts each. Fonts being: Rachana, Meera, Suruma and Lohit-Malayalaam.">
+
+<meta property="og:description" content="The works this week has been a little slow with college exams and assignments. This is what I have done so far this week.I have completed the list of reference files containing glyph names of 243 words from four fonts each. Fonts being: Rachana, Meera, Suruma and Lohit-Malayalaam.">
+
+<meta property="og:url" content="https://nandaja.space/posts-output/2013-07-28-gsoc-weekly-update-5/" />
+<meta property="og:title" content="GSoC Weekly update #5" />
+<meta property="og:type" content="article" />
+
+    <link rel="canonical" href="https://nandaja.space/posts-output/2013-07-28-gsoc-weekly-update-5/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//fonts.googleapis.com/css?family=Alegreya:400italic,700italic,400,700" rel="stylesheet"
+          type="text/css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/default.min.css">
+    <link href="/css/screen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Nandaja</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li ><a href="/">Home</a></li>
+                <li
+                ><a href="/archives/">Blog</a></li>
+                
+                <li><a href="/feed.xml">RSS</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div><!--/.container-fluid -->
+</nav>
+
+
+<div class="container">
+
+
+    <div class="row">
+        <div class="col-lg-9">
+            <div id="content">
+                
+<div id="post">
+    <div class="post-header">
+    <div id="post-meta" class="row">
+        <div class="col-lg-6">28 July, 2013</div>
+        
+    </div>
+    <h2>GSoC Weekly update #5</h2>
+</div>
+<div>
+    
+    <p>The works this week has been a little slow with college exams and assignments. This is what I have done so far this week.</p><p>I have completed the list of reference files containing glyph names of 243 words from four fonts each. Fonts being: Rachana, Meera, Suruma and Lohit-Malayalaam.</p><p>The code has been modified to equip not only harfbuzz renderings but renderings from other engines line Uniscribe, provided the user will produce the output of the rendering engine herself/himself. I have created a Python package containing 2 modules each for testing and creating output. The main script automated_rendering_testing.py  will make use of this package to test and give the final result. To test the framework, one can just run ./automated_rendering_testing and then provide the necessary  information, when asked.</p><p>Coming to the tester, first it will compare the reference file and the rendering output. The it will create a file named result.txt containing the wrongly rendered words along with the number corresponding to the word in test cases' file. This file is used only to create the png file of the wrongly rendered words, if the engine is harfbuzz. Other wise this file is ignored. Now the actual output is a file test_result.txt with the format:</p><p>Sl.No Word Rendering status(correct/wrong)</p><p>User can view this file, see the status and see the wrongly rendered word.</p><p>The framework works this way now: <a href="http://nandajavarma.files.wordpress.com/2013/07/screenshot-from-2013-07-28-155652.png">![Image]({{ site.baseurl }}/assets/screenshot-from-2013-07-28-155652.png?w=650)</a></p><p>And this would be the output.png file. (As I chose harfbuzz here)</p><p><a href="http://nandajavarma.files.wordpress.com/2013/07/screenshot-from-2013-07-28-155950.png">![Image]({{ site.baseurl }}/assets/screenshot-from-2013-07-28-155950.png?w=158)</a></p><p>And the test_result.txt file would look like this:</p><p><a href="http://nandajavarma.files.wordpress.com/2013/07/screenshot-from-2013-07-28-160136.png">![Image]({{ site.baseurl }}/assets/screenshot-from-2013-07-28-160136.png?w=569)</a></p><p>The agenda for this week is to re-write the whole code in C.</p><p>My code is available here: <a href="https://github.com/nandajavarma/Automated-Rendering-Testing">https://github.com/nandajavarma/Automated-Rendering-Testing</a></p>
+</div>
+
+<div id="post-tags">
+    <b>Tags: </b>
+    
+    <a href="/tags-output/nlp/">nlp</a>
+    
+    <a href="/tags-output/gsco/">gsco</a>
+    
+    <a href="/tags-output/smc/">smc</a>
+    
+</div>
+
+
+    <div id="prev-next">
+        
+        <a href="/posts-output/2013-08-11-gsoc-weekly-update-6/">&laquo; GSoC Weekly update #6</a>
+        
+        
+        <a class="right" href="/posts-output/2013-07-20-gsoc-weekly-report-4/">GSoC Weekly update #4 &raquo;</a>
+        
+    </div>
+
+    
+
+
+</div>
+
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div id="sidebar">
+                <!-- The following section can be used for custom links like RC, Pears, etc. -->
+                <!-- <h3>Links</h3>
+                     <ul id="links">
+                     <li><a href="http://cryogenweb.org/docs/home.html">Cryogen Docs</a></li>
+                     <li><a href="https://carmen.la/blog/archives/">Carmen's Blog</a></li>
+                     
+                     <li><a href="/pages-output/about/">About</a></li>
+                     
+                     <li><a href="/pages-output/another-page/">Another Page</a></li>
+                     
+                     </ul> -->
+                <!-- 
+                     <div id="recent">
+                     <h3>Recent Posts</h3>
+                     <ul>
+                     
+                     <li><a href="/posts-output/2017-03-04-life-as-a-recurser-a-fraction-of-the-whole.markdown/">Life as a Recurser - A fraction of the whole</a></li>
+                     
+                     <li><a href="/posts-output/2016-12-06-a-walk-followed-by-sitting-and-sleeping-on-benches-and-what-not-to-remember.markdown/">A walk(followed by sitting and sleeping on benches, and what not) to remember</a></li>
+                     
+                     <li><a href="/posts-output/2016-10-30-subjecting-myself-to-a-potential-failure.markdown/">Subjecting myself to a potential failure</a></li>
+                     
+                     </ul>
+                     </div>
+                      -->
+                
+            </div>
+        </div>
+    </div>
+    <footer>Copyright &copy; 2021 Nandaja Varma
+        <p style="text-align: center;">Powered by <a href="http://cryogenweb.org">Cryogen</a></p></footer>
+</div>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="/js/highlight.pack.js" type="application/javascript"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+</body>
+</html>

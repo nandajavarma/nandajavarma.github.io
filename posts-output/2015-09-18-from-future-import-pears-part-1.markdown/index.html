@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Nandaja: From Future Import PeARS, Part - 1</title>
+    
+<meta name="keywords" content="terminal,bangalore,edinburgh,debian,india,Recurse Center,ubuntu,oss,nlp,privacy,travel,intro,gsco,linux,beginner,packaging,smc,PeARS,debconf,NYC,life,test">
+
+<meta name="description" content="PeARS (or Peer-to-peer Agent for Reciprocated Search, if you would prefer that) is a distributed search engine project that I got involved with very recently. It is a very interesting and ambitious idea that Aurelie Herbelot thought of, to make searching more secure, accurate and very much user reliant. For an official intro from the skipper herself head over to her blog. What I am trying to share via this post is the current status of the project, where we see PeARS down the road, how much we would love others to look into the project, and what not. Hopefully the first of many more come. :-)">
+
+<meta property="og:description" content="PeARS (or Peer-to-peer Agent for Reciprocated Search, if you would prefer that) is a distributed search engine project that I got involved with very recently. It is a very interesting and ambitious idea that Aurelie Herbelot thought of, to make searching more secure, accurate and very much user reliant. For an official intro from the skipper herself head over to her blog. What I am trying to share via this post is the current status of the project, where we see PeARS down the road, how much we would love others to look into the project, and what not. Hopefully the first of many more come. :-)">
+
+<meta property="og:url" content="https://nandaja.space/posts-output/2015-09-18-from-future-import-pears-part-1.markdown/" />
+<meta property="og:title" content="From Future Import PeARS, Part - 1" />
+<meta property="og:type" content="article" />
+
+    <link rel="canonical" href="https://nandaja.space/posts-output/2015-09-18-from-future-import-pears-part-1.markdown/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//fonts.googleapis.com/css?family=Alegreya:400italic,700italic,400,700" rel="stylesheet"
+          type="text/css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/default.min.css">
+    <link href="/css/screen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Nandaja</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li ><a href="/">Home</a></li>
+                <li
+                ><a href="/archives/">Blog</a></li>
+                
+                <li><a href="/feed.xml">RSS</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div><!--/.container-fluid -->
+</nav>
+
+
+<div class="container">
+
+
+    <div class="row">
+        <div class="col-lg-9">
+            <div id="content">
+                
+<div id="post">
+    <div class="post-header">
+    <div id="post-meta" class="row">
+        <div class="col-lg-6">18 September, 2015</div>
+        
+    </div>
+    <h2>From Future Import PeARS, Part - 1</h2>
+</div>
+<div>
+    
+    <p>PeARS (or Peer-to-peer Agent for Reciprocated Search, if you would prefer that) is a distributed search engine project that I got involved with very recently. It is a very interesting and ambitious idea that <a href="http://aurelieherbelot.net/">Aurelie Herbelot</a> thought of, to make searching more secure, accurate and very much user reliant. For an official intro from the skipper herself head over to her <a href="http://aurelieherbelot.net/pears/">blog</a>. What I am trying to share via this post is the current status of the project, where we see PeARS down the road, how much we would love others to look into the project, and what not. Hopefully the first of many more come. :-)</p><figure><a href="/images/pear-logo.png"><img src="/images/pear-logo.png" /></a></figure><p>###What is PeARS?</p><p>Today, we have innumerable people using the Internet, each one of whom has access to an enormous amount of data. We are at a point of time where the zillion Internet users can help each other out to find information we are looking for rather than depending on centralized search engines some big corporate has set up for us. That's exactly the idea behind PeARS. Say n number of people have installed PeARS in their local machine. Over time, PeARS will index the search history of your browser(This happens locally and also you can choose what to index). Each one of these pears, that's what we call each installed system, will have a unique profile(anonymous or other wise based on the user preference) identifiable by another pear and can share their search index which other pears can use.</p><p>For example, Han is a skilled pilot who reads a lot of super awesome technical stuff about spaceships. He decides to index most of his browser history using PeARS and share it with other pears anonymously(he is trying to keep a low profile since Jabba the Hutt is looking for him). Luke, who just installed PeARS in his desktop, queries about Millennium Falcon. The distributional semantics algorithms in PeARS get search indices from pears which has same or similar terms. It clearly identifies Han Solo as a spaceship expert, gets his index along with others' and present it to Luke the fastest way possible. Luke starts reading about spaceships. He is not a bad pilot himself, now. :)<br />
+Luke try looking up about coolest lightsabers, but unfortunately none of the jedis were using PeARS. He gets redirected to Duck Duck go for the results. Over time, his search history also gets indexed locally which he decides to share. He became the most resourceful pear on lightsabers. And it goes on...</p><p>So like I mentioned earlier, it is very much reliant on the users of the big fat Internet. The links shared by each user helps PeARS rate them based on their resourcefulness on each topic and help others get most accurate results for their queries. No one tracking your search queries and no corporate telling you what to see.</p><p>It may sound incredibly ambitious, but the data each single one of us has access to makes this idea very much possible.</p><p>###Present Status</p><p>We are very much in the initial phase of the project. We have a prototype working which can index your local searches and queries from the couple of pears we have setup in our machines or from your local index.</p><p>###What next?</p><p>Most of the work is yet to be done. Presently, the system is not that efficient when it comes to performance, although search accuracy is near perfect. We are working on changing the data structures being used and making PeARS work faster. We plan an implementation very similar to BitTorrent to track and share data among the pears. We are yet to come up with the architecture.</p><p>###Who are we?</p><p>We are a bunch of people, who strongly believe that the future is distributed, working together to make a small step towards the next big change. The 5 of us involved with this project are:</p><ol><li><a href="http://aurelieherbelot.net/">Aurelie Herbelot</a></li><li><a href="http://stultus.in">Hrishikesh K.B.</a></li><li>Veesa Norman</li><li>Shobha Tyagi
+<br />and of course me. :)</li></ol><p>We usually hangout at the IRC channel #pears in Freenode.</p><p>###Do we need help?</p><p>What kind of question is that? Of course, we do!
+<br />The programming language we use is Python. We have hosted our code in Github, you can find the link below. We would be very much grateful to have people help us with developing, testing, documenting, publicizing, etc.</p><p>More details about the project to be followed in the next post.</p><p>###Some links</p><p><strong>1. <a href="https://github.com/minimalparts/PeARS">code</a></strong><br /><strong>2. <a href="http://aurelieherbelot.net/pears/">More about PeARS</a></strong></p>
+</div>
+
+<div id="post-tags">
+    <b>Tags: </b>
+    
+    <a href="/tags-output/oss/">oss</a>
+    
+    <a href="/tags-output/intro/">intro</a>
+    
+    <a href="/tags-output/PeARS/">PeARS</a>
+    
+</div>
+
+
+    <div id="prev-next">
+        
+        <a href="/posts-output/2016-01-10-the-day-i-decided-to-travel.markdown/">&laquo; The Day I Decided to Travel</a>
+        
+        
+        <a class="right" href="/posts-output/2015-09-02-rise-above-the-storm-you-will-find-the-sunshine/">Rise above the storm, You will find the sunshine! &raquo;</a>
+        
+    </div>
+
+    
+
+
+</div>
+
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div id="sidebar">
+                <!-- The following section can be used for custom links like RC, Pears, etc. -->
+                <!-- <h3>Links</h3>
+                     <ul id="links">
+                     <li><a href="http://cryogenweb.org/docs/home.html">Cryogen Docs</a></li>
+                     <li><a href="https://carmen.la/blog/archives/">Carmen's Blog</a></li>
+                     
+                     <li><a href="/pages-output/about/">About</a></li>
+                     
+                     <li><a href="/pages-output/another-page/">Another Page</a></li>
+                     
+                     </ul> -->
+                <!-- 
+                     <div id="recent">
+                     <h3>Recent Posts</h3>
+                     <ul>
+                     
+                     <li><a href="/posts-output/2017-03-04-life-as-a-recurser-a-fraction-of-the-whole.markdown/">Life as a Recurser - A fraction of the whole</a></li>
+                     
+                     <li><a href="/posts-output/2016-12-06-a-walk-followed-by-sitting-and-sleeping-on-benches-and-what-not-to-remember.markdown/">A walk(followed by sitting and sleeping on benches, and what not) to remember</a></li>
+                     
+                     <li><a href="/posts-output/2016-10-30-subjecting-myself-to-a-potential-failure.markdown/">Subjecting myself to a potential failure</a></li>
+                     
+                     </ul>
+                     </div>
+                      -->
+                
+            </div>
+        </div>
+    </div>
+    <footer>Copyright &copy; 2021 Nandaja Varma
+        <p style="text-align: center;">Powered by <a href="http://cryogenweb.org">Cryogen</a></p></footer>
+</div>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="/js/highlight.pack.js" type="application/javascript"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+</body>
+</html>

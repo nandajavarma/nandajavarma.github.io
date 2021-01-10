@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Nandaja: Debian Packaging</title>
+    
+<meta name="keywords" content="terminal,bangalore,edinburgh,debian,india,Recurse Center,ubuntu,oss,nlp,privacy,travel,intro,gsco,linux,beginner,packaging,smc,PeARS,debconf,NYC,life,test">
+
+<meta name="description" content="Once you&#39;ve picked a Gem and filed the ITP, it is time for you to start packaging. For this first run the command:gem2deb ">
+
+<meta property="og:description" content="Once you&#39;ve picked a Gem and filed the ITP, it is time for you to start packaging. For this first run the command:gem2deb ">
+
+<meta property="og:url" content="https://nandaja.space/posts-output/2012-11-30-debian-packaging/" />
+<meta property="og:title" content="Debian Packaging" />
+<meta property="og:type" content="article" />
+
+    <link rel="canonical" href="https://nandaja.space/posts-output/2012-11-30-debian-packaging/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//fonts.googleapis.com/css?family=Alegreya:400italic,700italic,400,700" rel="stylesheet"
+          type="text/css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/default.min.css">
+    <link href="/css/screen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Nandaja</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li ><a href="/">Home</a></li>
+                <li
+                ><a href="/archives/">Blog</a></li>
+                
+                <li><a href="/feed.xml">RSS</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div><!--/.container-fluid -->
+</nav>
+
+
+<div class="container">
+
+
+    <div class="row">
+        <div class="col-lg-9">
+            <div id="content">
+                
+<div id="post">
+    <div class="post-header">
+    <div id="post-meta" class="row">
+        <div class="col-lg-6">30 November, 2012</div>
+        
+    </div>
+    <h2>Debian Packaging</h2>
+</div>
+<div>
+    
+    <p>Once you've picked a Gem and filed the ITP, it is time for you to start packaging. For this first run the command:</p><p><strong>gem2deb <Gem name="name"></Gem></strong></p><p>gem2deb is actually the Ruby Debian packaging suite. It is a set of tools to create Debian packages from Ruby software distributed with RubyGems. It will automatically run the tests for Ruby1.8 and Ruby1.9 as well. For running these tests gem2deb look for a Rakefile or a .rb file or a .Yaml file inside the debian directory. Running these tests successfully has always been a headache for me. Still not at all good at it.</p><p>Okay, So once you have completed running gem2deb successfully, it is time for you to edit the changelog, copyright and control files. Inside the changelog file you will have to include the bug number of the filed ITP and the author's name. In the copyright file, we have to include the copyright information like licence, author etc. of the actual gem as well as the debian package. Now the control file is the one I had real trouble dealing with. We have to include two neat descriptions about the Ruby library and its purpose. People decide whether to download that package or not reading this description, so make it catchy (I never could). Next check whether these files are clean using the command:</p><p><strong>lintian -iIEcv --pedantic --color auto ruby-foo*.changes</strong></p><p>Next step is to build the package using build package and pbuilder, that is, run the following commands:</p><p><strong>dpkg-buildpackage</strong></p><p><strong>sudo pbuiler ruby-foo*.dsc</strong></p><p>Once you have made sure that there are no errors and the tests are running perfectly, Yeah, that's pretty much it. Next step is to upload it to the mentors. For this you need an account in <a href="https://alioth.debian.org/projects/pkg-ruby-extras/">https://alioth.debian.org/projects/pkg-ruby-extras/</a>. Mine isn't activated yet. So I just push it to my gitorious repo. Before pushing we will have to import the file using git-import-dsc. This one also has been a tough one for me, as my knowledge in git is too vague. For more info on this step or a  any previous ones, checking out the Diaspora packaging page in debian wiki would be your best bet. Okay, So once you've pushed your imported file to the repo you will find three branches there, if you did it right- master, pristine-tar and upstream. And now it's time to wait for someone to review it for you.</p><p>I know this post would be of no use, because I've simply scribbled everything down in a rush. May be I'll blog about the issues I faced at each step. But sometime later.</p>
+</div>
+
+<div id="post-tags">
+    <b>Tags: </b>
+    
+    <a href="/tags-output/debian/">debian</a>
+    
+    <a href="/tags-output/packaging/">packaging</a>
+    
+</div>
+
+
+    <div id="prev-next">
+        
+        <a href="/posts-output/2012-12-02-perl-warning-setting-locale-failed/">&laquo; perl: warning: Setting locale failed. - Fixed</a>
+        
+        
+        <a class="right" href="/posts-output/2012-11-29-diaspora-packaging-for-debian/">Diaspora Packaging For Debian &raquo;</a>
+        
+    </div>
+
+    
+
+
+</div>
+
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div id="sidebar">
+                <!-- The following section can be used for custom links like RC, Pears, etc. -->
+                <!-- <h3>Links</h3>
+                     <ul id="links">
+                     <li><a href="http://cryogenweb.org/docs/home.html">Cryogen Docs</a></li>
+                     <li><a href="https://carmen.la/blog/archives/">Carmen's Blog</a></li>
+                     
+                     <li><a href="/pages-output/about/">About</a></li>
+                     
+                     <li><a href="/pages-output/another-page/">Another Page</a></li>
+                     
+                     </ul> -->
+                <!-- 
+                     <div id="recent">
+                     <h3>Recent Posts</h3>
+                     <ul>
+                     
+                     <li><a href="/posts-output/2017-03-04-life-as-a-recurser-a-fraction-of-the-whole.markdown/">Life as a Recurser - A fraction of the whole</a></li>
+                     
+                     <li><a href="/posts-output/2016-12-06-a-walk-followed-by-sitting-and-sleeping-on-benches-and-what-not-to-remember.markdown/">A walk(followed by sitting and sleeping on benches, and what not) to remember</a></li>
+                     
+                     <li><a href="/posts-output/2016-10-30-subjecting-myself-to-a-potential-failure.markdown/">Subjecting myself to a potential failure</a></li>
+                     
+                     </ul>
+                     </div>
+                      -->
+                
+            </div>
+        </div>
+    </div>
+    <footer>Copyright &copy; 2021 Nandaja Varma
+        <p style="text-align: center;">Powered by <a href="http://cryogenweb.org">Cryogen</a></p></footer>
+</div>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="/js/highlight.pack.js" type="application/javascript"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+</body>
+</html>

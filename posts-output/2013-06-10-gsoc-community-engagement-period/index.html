@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Nandaja: GSoC - Community engagement period</title>
+    
+<meta name="keywords" content="terminal,bangalore,edinburgh,debian,india,Recurse Center,ubuntu,oss,nlp,privacy,travel,intro,gsco,linux,beginner,packaging,smc,PeARS,debconf,NYC,life,test">
+
+<meta name="description" content="GSoC 2013 approved project list was published on May 27th and the community engagement period was started from May 29th onwards. During this period the students are supposed to bond with their mentors, read the documentations and finalize your plans so you can have a head start with your project. The project topic for which I have got accepted for is &quot;Automated rendering testing&quot; and I will be completing that project under Swathanthra Malayalam Computing. I could learn a lot a new stuff so far during this community bonding period with a heavy deal of help from my mentor Rajeesh K Nambiar, although I haven&#39;t started actual coding yet. I will try to explain my proposal status and further steps here, in detail.Basically, my project idea is to create an automated way to test the rendering of Indic fonts by rendering engines like harfbuzz. The procedure I wish to follow here is quite simple. Create a test file that contains a set of words, mostly characters with ligatures that will be used for testing the rendering. Along with that I will be maintaining a file that contain the glyph infos of the words/characters in the test file for a particular font, say Malayalam font Rachana. As of now I am preparing it manually, can switch to font forge scripts if required.">
+
+<meta property="og:description" content="GSoC 2013 approved project list was published on May 27th and the community engagement period was started from May 29th onwards. During this period the students are supposed to bond with their mentors, read the documentations and finalize your plans so you can have a head start with your project. The project topic for which I have got accepted for is &quot;Automated rendering testing&quot; and I will be completing that project under Swathanthra Malayalam Computing. I could learn a lot a new stuff so far during this community bonding period with a heavy deal of help from my mentor Rajeesh K Nambiar, although I haven&#39;t started actual coding yet. I will try to explain my proposal status and further steps here, in detail.Basically, my project idea is to create an automated way to test the rendering of Indic fonts by rendering engines like harfbuzz. The procedure I wish to follow here is quite simple. Create a test file that contains a set of words, mostly characters with ligatures that will be used for testing the rendering. Along with that I will be maintaining a file that contain the glyph infos of the words/characters in the test file for a particular font, say Malayalam font Rachana. As of now I am preparing it manually, can switch to font forge scripts if required.">
+
+<meta property="og:url" content="https://nandaja.space/posts-output/2013-06-10-gsoc-community-engagement-period/" />
+<meta property="og:title" content="GSoC - Community engagement period" />
+<meta property="og:type" content="article" />
+
+    <link rel="canonical" href="https://nandaja.space/posts-output/2013-06-10-gsoc-community-engagement-period/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//fonts.googleapis.com/css?family=Alegreya:400italic,700italic,400,700" rel="stylesheet"
+          type="text/css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/default.min.css">
+    <link href="/css/screen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Nandaja</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li ><a href="/">Home</a></li>
+                <li
+                ><a href="/archives/">Blog</a></li>
+                
+                <li><a href="/feed.xml">RSS</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div><!--/.container-fluid -->
+</nav>
+
+
+<div class="container">
+
+
+    <div class="row">
+        <div class="col-lg-9">
+            <div id="content">
+                
+<div id="post">
+    <div class="post-header">
+    <div id="post-meta" class="row">
+        <div class="col-lg-6">10 June, 2013</div>
+        
+    </div>
+    <h2>GSoC - Community engagement period</h2>
+</div>
+<div>
+    
+    <p>GSoC 2013 approved project list was published on May 27th and the community engagement period was started from May 29th onwards. During this period the students are supposed to bond with their mentors, read the documentations and finalize your plans so you can have a head start with your project. The project topic for which I have got accepted for is "Automated rendering testing" and I will be completing that project under Swathanthra Malayalam Computing. I could learn a lot a new stuff so far during this community bonding period with a heavy deal of help from my mentor Rajeesh K Nambiar, although I haven't started actual coding yet. I will try to explain my proposal status and further steps here, in detail.</p><p>Basically, my project idea is to create an automated way to test the rendering of Indic fonts by rendering engines like harfbuzz. The procedure I wish to follow here is quite simple. Create a test file that contains a set of words, mostly characters with ligatures that will be used for testing the rendering. Along with that I will be maintaining a file that contain the glyph infos of the words/characters in the test file for a particular font, say Malayalam font Rachana. As of now I am preparing it manually, can switch to font forge scripts if required.</p><p>Once I have got all the test data, my main script will accept the entries in the test file and render it using Harfbuzz for the font Rachana. The words will be rendered using hb-shape and the output glyph values will be compared with the original glyph indices of these words that I have collected manually. If the glyph indices doesn't match, an error flag will be set for that particular word. At the end of the comparisons, the words with error flag set can be rendered using hb-view and stored in another html file. This file can be looked up to see for rendering issues.</p><p>This is what I will be implementing first. Depending on its efficiency, will move to any other solutions. In the above procedure, the most inefficient step, I think, is collecting the test file step and collecting the glyph index step. We can resolve the latter by, may be, using a scripts for extraction or using the .ttx file of the font (which is quite complex). But the former is a real issue. If the user wants to check for rendering issues in a font, she will have to create this file with a set of words manually. Will have to think of a way to overcome this issue.</p><p>That's it for now!</p>
+</div>
+
+<div id="post-tags">
+    <b>Tags: </b>
+    
+    <a href="/tags-output/nlp/">nlp</a>
+    
+    <a href="/tags-output/gsco/">gsco</a>
+    
+    <a href="/tags-output/smc/">smc</a>
+    
+</div>
+
+
+    <div id="prev-next">
+        
+        <a href="/posts-output/2013-06-29-gsoc-weekly-update-2/">&laquo; GSoC Weekly update #2</a>
+        
+        
+        <a class="right" href="/posts-output/2013-04-29-bangalore-diaries/">Bangalore Diaries &raquo;</a>
+        
+    </div>
+
+    
+
+
+</div>
+
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div id="sidebar">
+                <!-- The following section can be used for custom links like RC, Pears, etc. -->
+                <!-- <h3>Links</h3>
+                     <ul id="links">
+                     <li><a href="http://cryogenweb.org/docs/home.html">Cryogen Docs</a></li>
+                     <li><a href="https://carmen.la/blog/archives/">Carmen's Blog</a></li>
+                     
+                     <li><a href="/pages-output/about/">About</a></li>
+                     
+                     <li><a href="/pages-output/another-page/">Another Page</a></li>
+                     
+                     </ul> -->
+                <!-- 
+                     <div id="recent">
+                     <h3>Recent Posts</h3>
+                     <ul>
+                     
+                     <li><a href="/posts-output/2017-03-04-life-as-a-recurser-a-fraction-of-the-whole.markdown/">Life as a Recurser - A fraction of the whole</a></li>
+                     
+                     <li><a href="/posts-output/2016-12-06-a-walk-followed-by-sitting-and-sleeping-on-benches-and-what-not-to-remember.markdown/">A walk(followed by sitting and sleeping on benches, and what not) to remember</a></li>
+                     
+                     <li><a href="/posts-output/2016-10-30-subjecting-myself-to-a-potential-failure.markdown/">Subjecting myself to a potential failure</a></li>
+                     
+                     </ul>
+                     </div>
+                      -->
+                
+            </div>
+        </div>
+    </div>
+    <footer>Copyright &copy; 2021 Nandaja Varma
+        <p style="text-align: center;">Powered by <a href="http://cryogenweb.org">Cryogen</a></p></footer>
+</div>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="/js/highlight.pack.js" type="application/javascript"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+</body>
+</html>

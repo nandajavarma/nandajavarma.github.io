@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Nandaja: Quick tip: Installing a software in linux using files in .run format</title>
+    
+<meta name="keywords" content="terminal,bangalore,edinburgh,debian,india,Recurse Center,ubuntu,oss,nlp,privacy,travel,intro,gsco,linux,beginner,packaging,smc,PeARS,debconf,NYC,life,test">
+
+<meta name="description" content="The .run files are binary executable files. These files need to be executed to install the software. Such files are often considered as unsafe as we cannot find a way to uninstall them and we cannot say what the code will do to your system. But some games and apps are available that are packaged in this file format. Installing using .run file is rather easy.First of all download the required .run file.">
+
+<meta property="og:description" content="The .run files are binary executable files. These files need to be executed to install the software. Such files are often considered as unsafe as we cannot find a way to uninstall them and we cannot say what the code will do to your system. But some games and apps are available that are packaged in this file format. Installing using .run file is rather easy.First of all download the required .run file.">
+
+<meta property="og:url" content="https://nandaja.space/posts-output/2012-12-15-quick-tip-installing-a-package-in-linux-using-run-files/" />
+<meta property="og:title" content="Quick tip: Installing a software in linux using files in .run format" />
+<meta property="og:type" content="article" />
+
+    <link rel="canonical" href="https://nandaja.space/posts-output/2012-12-15-quick-tip-installing-a-package-in-linux-using-run-files/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//fonts.googleapis.com/css?family=Alegreya:400italic,700italic,400,700" rel="stylesheet"
+          type="text/css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/default.min.css">
+    <link href="/css/screen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Nandaja</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li ><a href="/">Home</a></li>
+                <li
+                ><a href="/archives/">Blog</a></li>
+                
+                <li><a href="/feed.xml">RSS</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div><!--/.container-fluid -->
+</nav>
+
+
+<div class="container">
+
+
+    <div class="row">
+        <div class="col-lg-9">
+            <div id="content">
+                
+<div id="post">
+    <div class="post-header">
+    <div id="post-meta" class="row">
+        <div class="col-lg-6">15 December, 2012</div>
+        
+    </div>
+    <h2>Quick tip: Installing a software in linux using files in .run format</h2>
+</div>
+<div>
+    
+    <p>The .run files are binary executable files. These files need to be executed to install the software. Such files are often considered as unsafe as we cannot find a way to uninstall them and we cannot say what the code will do to your system. But some games and apps are available that are packaged in this file format. Installing using .run file is rather easy.</p><p>First of all download the required .run file.</p><p>For example, in your terminal run the command:</p><p><strong>wget -c &lt; URL to the .run file &gt;</strong></p><p>(Get the .run file as you wish. I just mentioned <strong>wget</strong> here because it is one of my favorite GNU/Linux utilities. It enables a very nifty download of files from internet and the tab <strong>-c</strong> can help you get data from a partially downloaded file. If the file to be downloaded is quite bulky and you don't trust your Internet connection then <strong>-c</strong> tab is what you need.)</p><p>Method 1:</p><p>Go to the directory where the .run file is saved and run the following command in your terminal:</p><p><strong>chmod +x foo.run</strong></p><p>Here I have arbitrarily named my .run file as foo.run. Here we are using +x to give permission for the owner to execute the file as a program. (If we replace +x with ugo+x, then the user, group and others will get the permission to execute that file as well.)</p><p>Now run the executable file, that is, run the command :</p><p><strong>./foo.run</strong></p><p>Now the installer will run.</p><p>Method 2:</p><p>We can do the same steps rather interactively as below.</p><p>Right click the .run file and select properties. Under the permission tab check the box that says 'Allow executing file as program' and click close.</p><p>Double click the .run file and select 'Run in terminal'.</p><p>This will run the installer.</p><p>Both worked perfectly in Ubuntu 12.04. If different in other distros please let me know.</p>
+</div>
+
+<div id="post-tags">
+    <b>Tags: </b>
+    
+    <a href="/tags-output/ubuntu/">ubuntu</a>
+    
+    <a href="/tags-output/linux/">linux</a>
+    
+</div>
+
+
+    <div id="prev-next">
+        
+        <a href="/posts-output/2012-12-22-anti-virus-for-linux/">&laquo; Anti virus for Linux</a>
+        
+        
+        <a class="right" href="/posts-output/2012-12-10-recovering-lost-password-in-ubuntu-12-04/">Recovering lost password in Ubuntu 12.04 &raquo;</a>
+        
+    </div>
+
+    
+
+
+</div>
+
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div id="sidebar">
+                <!-- The following section can be used for custom links like RC, Pears, etc. -->
+                <!-- <h3>Links</h3>
+                     <ul id="links">
+                     <li><a href="http://cryogenweb.org/docs/home.html">Cryogen Docs</a></li>
+                     <li><a href="https://carmen.la/blog/archives/">Carmen's Blog</a></li>
+                     
+                     <li><a href="/pages-output/about/">About</a></li>
+                     
+                     <li><a href="/pages-output/another-page/">Another Page</a></li>
+                     
+                     </ul> -->
+                <!-- 
+                     <div id="recent">
+                     <h3>Recent Posts</h3>
+                     <ul>
+                     
+                     <li><a href="/posts-output/2017-03-04-life-as-a-recurser-a-fraction-of-the-whole.markdown/">Life as a Recurser - A fraction of the whole</a></li>
+                     
+                     <li><a href="/posts-output/2016-12-06-a-walk-followed-by-sitting-and-sleeping-on-benches-and-what-not-to-remember.markdown/">A walk(followed by sitting and sleeping on benches, and what not) to remember</a></li>
+                     
+                     <li><a href="/posts-output/2016-10-30-subjecting-myself-to-a-potential-failure.markdown/">Subjecting myself to a potential failure</a></li>
+                     
+                     </ul>
+                     </div>
+                      -->
+                
+            </div>
+        </div>
+    </div>
+    <footer>Copyright &copy; 2021 Nandaja Varma
+        <p style="text-align: center;">Powered by <a href="http://cryogenweb.org">Cryogen</a></p></footer>
+</div>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="/js/highlight.pack.js" type="application/javascript"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+</body>
+</html>

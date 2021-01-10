@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Nandaja: Diaspora Packaging For Debian</title>
+    
+<meta name="keywords" content="terminal,bangalore,edinburgh,debian,india,Recurse Center,ubuntu,oss,nlp,privacy,travel,intro,gsco,linux,beginner,packaging,smc,PeARS,debconf,NYC,life,test">
+
+<meta name="description" content="Here are the steps I followed while  packaging diaspora for debian.My ultimate guide for debian-diaspora packaging has been this piratepad document :">
+
+<meta property="og:description" content="Here are the steps I followed while  packaging diaspora for debian.My ultimate guide for debian-diaspora packaging has been this piratepad document :">
+
+<meta property="og:url" content="https://nandaja.space/posts-output/2012-11-29-diaspora-packaging-for-debian/" />
+<meta property="og:title" content="Diaspora Packaging For Debian" />
+<meta property="og:type" content="article" />
+
+    <link rel="canonical" href="https://nandaja.space/posts-output/2012-11-29-diaspora-packaging-for-debian/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//fonts.googleapis.com/css?family=Alegreya:400italic,700italic,400,700" rel="stylesheet"
+          type="text/css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/default.min.css">
+    <link href="/css/screen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Nandaja</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li ><a href="/">Home</a></li>
+                <li
+                ><a href="/archives/">Blog</a></li>
+                
+                <li><a href="/feed.xml">RSS</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div><!--/.container-fluid -->
+</nav>
+
+
+<div class="container">
+
+
+    <div class="row">
+        <div class="col-lg-9">
+            <div id="content">
+                
+<div id="post">
+    <div class="post-header">
+    <div id="post-meta" class="row">
+        <div class="col-lg-6">29 November, 2012</div>
+        
+    </div>
+    <h2>Diaspora Packaging For Debian</h2>
+</div>
+<div>
+    
+    <p>Here are the steps I followed while  packaging diaspora for debian.</p><p>My ultimate guide for debian-diaspora packaging has been this piratepad document :</p><p><a href="http://piratepad.net/tu0H1eU2vH">http://piratepad.net/tu0H1eU2vH</a></p><p>Diaspora is built on Ruby on Rails platform. In Ruby programming language, the software packages are called 'RubyGems' or simply 'Gems'. Gems contain a packaged Ruby application or library. So basically our task is to convert this RubyGem into debian file format.</p><p>There are numerous number of gems upon which diaspora is depending. To complete the debian packaging of whole diaspora software we will have to package each and every one of these gems. So our first step towards packaging is select a gem which is a dependency for diaspora and that hasn't been packaged yet. You can easily pick one from the above mentioned pirate pad document.</p><p>Make sure you pick a gem that does not have any other gems as dependencies that aren't packaged yet. If  the gem you picked has such dependencies, then package the latter gem first and then proceed with the former.</p><p>Once you've selected your gem, it is time to file an ITP i.e. Intent To Package. A sample ITP is here:<a href="http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=691256">http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=691256</a>. You'll get all the information regarding your gem from rubygems.org or from the corresponding upstream file at github. We have to mail our ITP to the debian bug tracking system specifying the package name and a short description as the subject line. Never use rich text.</p><p>Once you've send in your ITP and you got the confirmation, you are good to go with your packaging. It is quite natural that you will end up sending a buggy ITP receiving an error message. But BTS is really easy to work with and I got all such information regarding BTS from <a href="http://www.debian.org/Bugs/server-control">http://www.debian.org/Bugs/server-control</a>.</p><p>So here ends the preps regarding the gem, you need to do before getting started with packaging.</p><p>Will get to the fun stuff in my next post.</p><p>For more links on packaging <a href="http://resident.dyndns.info/content/wordpress/?p=282" title="Nadir's blog">go here</a>!</p><p>Cheers.</p>
+</div>
+
+<div id="post-tags">
+    <b>Tags: </b>
+    
+    <a href="/tags-output/debian/">debian</a>
+    
+    <a href="/tags-output/packaging/">packaging</a>
+    
+</div>
+
+
+    <div id="prev-next">
+        
+        <a href="/posts-output/2012-11-30-debian-packaging/">&laquo; Debian Packaging</a>
+        
+        
+        <a class="right" href="/posts-output/2012-11-02-diaspora-im-lovin-it/">Diaspora &raquo;</a>
+        
+    </div>
+
+    
+
+
+</div>
+
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div id="sidebar">
+                <!-- The following section can be used for custom links like RC, Pears, etc. -->
+                <!-- <h3>Links</h3>
+                     <ul id="links">
+                     <li><a href="http://cryogenweb.org/docs/home.html">Cryogen Docs</a></li>
+                     <li><a href="https://carmen.la/blog/archives/">Carmen's Blog</a></li>
+                     
+                     <li><a href="/pages-output/about/">About</a></li>
+                     
+                     <li><a href="/pages-output/another-page/">Another Page</a></li>
+                     
+                     </ul> -->
+                <!-- 
+                     <div id="recent">
+                     <h3>Recent Posts</h3>
+                     <ul>
+                     
+                     <li><a href="/posts-output/2017-03-04-life-as-a-recurser-a-fraction-of-the-whole.markdown/">Life as a Recurser - A fraction of the whole</a></li>
+                     
+                     <li><a href="/posts-output/2016-12-06-a-walk-followed-by-sitting-and-sleeping-on-benches-and-what-not-to-remember.markdown/">A walk(followed by sitting and sleeping on benches, and what not) to remember</a></li>
+                     
+                     <li><a href="/posts-output/2016-10-30-subjecting-myself-to-a-potential-failure.markdown/">Subjecting myself to a potential failure</a></li>
+                     
+                     </ul>
+                     </div>
+                      -->
+                
+            </div>
+        </div>
+    </div>
+    <footer>Copyright &copy; 2021 Nandaja Varma
+        <p style="text-align: center;">Powered by <a href="http://cryogenweb.org">Cryogen</a></p></footer>
+</div>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="/js/highlight.pack.js" type="application/javascript"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+</body>
+</html>

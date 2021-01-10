@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Nandaja: Recovering lost password in Ubuntu 12.04</title>
+    
+<meta name="keywords" content="terminal,bangalore,edinburgh,debian,india,Recurse Center,ubuntu,oss,nlp,privacy,travel,intro,gsco,linux,beginner,packaging,smc,PeARS,debconf,NYC,life,test">
+
+<meta name="description" content="Yesterday, While I was trying to help my friend with his lost Ubuntu password, I explored the following two methods to do this quite easily.First method is using the recovery mode. This method is pretty simple.">
+
+<meta property="og:description" content="Yesterday, While I was trying to help my friend with his lost Ubuntu password, I explored the following two methods to do this quite easily.First method is using the recovery mode. This method is pretty simple.">
+
+<meta property="og:url" content="https://nandaja.space/posts-output/2012-12-10-recovering-lost-password-in-ubuntu-12-04/" />
+<meta property="og:title" content="Recovering lost password in Ubuntu 12.04" />
+<meta property="og:type" content="article" />
+
+    <link rel="canonical" href="https://nandaja.space/posts-output/2012-12-10-recovering-lost-password-in-ubuntu-12-04/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//fonts.googleapis.com/css?family=Alegreya:400italic,700italic,400,700" rel="stylesheet"
+          type="text/css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/default.min.css">
+    <link href="/css/screen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Nandaja</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li ><a href="/">Home</a></li>
+                <li
+                ><a href="/archives/">Blog</a></li>
+                
+                <li><a href="/feed.xml">RSS</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div><!--/.container-fluid -->
+</nav>
+
+
+<div class="container">
+
+
+    <div class="row">
+        <div class="col-lg-9">
+            <div id="content">
+                
+<div id="post">
+    <div class="post-header">
+    <div id="post-meta" class="row">
+        <div class="col-lg-6">10 December, 2012</div>
+        
+    </div>
+    <h2>Recovering lost password in Ubuntu 12.04</h2>
+</div>
+<div>
+    
+    <p>Yesterday, While I was trying to help my friend with his lost Ubuntu password, I explored the following two methods to do this quite easily.</p><p>First method is using the recovery mode. This method is pretty simple.</p><p>In the grub menu, select the recovery mode. Then in the menu that appear, scroll down to the option 'Drop to root shell prompt'. Now you will get a shell prompt with root authentication at the bottom of the screen. Now before changing the password we have to remount the root in read write mode and for that run the following command.</p><p><strong>mount -rw -o remount /</strong></p><p>Now go ahead and change the password of the corresponding user using the following command.</p><p><strong>passwd <username></username></strong></p><p>Now the prompt will ask for the new password. After entering it twice, as will be asked by the prompt, exit from the prompt by just entering <strong>exit.</strong> Now select the resume normal booting option. Sometimes when booting into the system from recovery mode can give you a disoriented display screen and simple restarting is the solution for this.</p><p>Although the above method worked just fine in my system, my friend didn't have much luck in making this work in his system ( God knows why. ). So I tried another method and that is using the live CD. The steps I followed are as follow :</p><p>1. Boot into the Ubuntu live CD and select the option try Ubuntu.</p><p>2. Open  the terminal and mount the partition that is the root partition for your actual Ubuntu as mount point.</p><ul><li>If you don't know the root partition, open gparted and see which drive is set as bootable.</li></ul><p>Suppose /dev/sda1 is your root partition. Now to mount it as the mount point run the command :</p><p><strong>sudo mount /dev/sda1 /mnt</strong></p><p>3. Make this mount point as root and for this we use chroot :</p><p><strong>sudo chroot /mnt</strong></p><p>4. Now you can proceed with changing password of the corresponding user, i.e. :</p><p><strong>sudo passwd <username></username></strong></p><p>Enter the new password as asked.</p><p>5. Un-mount the root partition</p><p><strong>umount /mnt</strong></p><p>6. Restart the system and now you can log in to your system with the new password.</p><p>I found some more methods too, online, but the above two worked perfectly for me. So didn't bother to experiment with anything else. Hope this works for my friend too.</p>
+</div>
+
+<div id="post-tags">
+    <b>Tags: </b>
+    
+    <a href="/tags-output/ubuntu/">ubuntu</a>
+    
+    <a href="/tags-output/linux/">linux</a>
+    
+</div>
+
+
+    <div id="prev-next">
+        
+        <a href="/posts-output/2012-12-15-quick-tip-installing-a-package-in-linux-using-run-files/">&laquo; Quick tip: Installing a software in linux using files in .run format</a>
+        
+        
+        <a class="right" href="/posts-output/2012-12-09-gnu-project-debugger/">GNU Project Debugger &raquo;</a>
+        
+    </div>
+
+    
+
+
+</div>
+
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div id="sidebar">
+                <!-- The following section can be used for custom links like RC, Pears, etc. -->
+                <!-- <h3>Links</h3>
+                     <ul id="links">
+                     <li><a href="http://cryogenweb.org/docs/home.html">Cryogen Docs</a></li>
+                     <li><a href="https://carmen.la/blog/archives/">Carmen's Blog</a></li>
+                     
+                     <li><a href="/pages-output/about/">About</a></li>
+                     
+                     <li><a href="/pages-output/another-page/">Another Page</a></li>
+                     
+                     </ul> -->
+                <!-- 
+                     <div id="recent">
+                     <h3>Recent Posts</h3>
+                     <ul>
+                     
+                     <li><a href="/posts-output/2017-03-04-life-as-a-recurser-a-fraction-of-the-whole.markdown/">Life as a Recurser - A fraction of the whole</a></li>
+                     
+                     <li><a href="/posts-output/2016-12-06-a-walk-followed-by-sitting-and-sleeping-on-benches-and-what-not-to-remember.markdown/">A walk(followed by sitting and sleeping on benches, and what not) to remember</a></li>
+                     
+                     <li><a href="/posts-output/2016-10-30-subjecting-myself-to-a-potential-failure.markdown/">Subjecting myself to a potential failure</a></li>
+                     
+                     </ul>
+                     </div>
+                      -->
+                
+            </div>
+        </div>
+    </div>
+    <footer>Copyright &copy; 2021 Nandaja Varma
+        <p style="text-align: center;">Powered by <a href="http://cryogenweb.org">Cryogen</a></p></footer>
+</div>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="/js/highlight.pack.js" type="application/javascript"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+</body>
+</html>
