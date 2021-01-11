@@ -9,6 +9,11 @@ body {
     font-size: 16px;
 }
 
+.copyleft {
+    display:inline-block;
+    transform: rotate(180deg);
+}
+
 .container {
     max-width: 1000px;
 }
