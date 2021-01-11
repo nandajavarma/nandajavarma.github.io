@@ -52,12 +52,13 @@ body {
 }
 
 .navbar-default .navbar-toggle:hover{
-    color: #000000;
-    background-color: #ffffff;
+    color: #ffff;
+    background-color: #0000;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+    color: #000000;
+    background-color: #f2f2f2;
 }
 
 #sidebar {
@@ -88,6 +89,7 @@ body {
     margin-top: 10px;
     display: flex;
     justify-content: space-evenly;
+    flex-direction: row;
 }
 
 footer {
@@ -179,5 +181,13 @@ pre, code, .hljs {
     #post-meta .right {
         float:left;
         text-align: left;
+    }
+    #dp {
+    }
+
+    #addressbook {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
