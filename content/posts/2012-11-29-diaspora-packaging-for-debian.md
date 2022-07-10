@@ -1,3 +1,13 @@
+---
+title: Diaspora Packaging For Debian
+date: 2012-11-29 22:58:42.000000000 +05:30
+category: tech
+tags:
+    - debian
+keywords:
+    - packaging
+    - linux
+---
 
 Here are the steps I followed while  packaging diaspora for debian.
 

@@ -1,5 +1,5 @@
 ---
-title: A walk(followed by sitting and sleeping on benches, and what not) to remember"
+title: A walk (followed by sleeping on benches) to remember
 date: 2016-12-06 19:58:42.000000000 +05:30
 category: travel
 tags:
