@@ -11,9 +11,8 @@ keywords:
 ---
 
 PeARS (or Peer-to-peer Agent for Reciprocated Search, if you would prefer that) is a distributed search engine project that I got involved with very recently. It is a very interesting and ambitious idea that <a href="http://aurelieherbelot.net/">Aurelie Herbelot</a> thought of, to make searching more secure, accurate and very much user reliant. For an official intro from the skipper herself head over to her <a href="http://aurelieherbelot.net/pears/">blog</a>. What I am trying to share via this post is the current status of the project, where we see PeARS down the road, how much we would love others to look into the project, and what not. Hopefully the first of many more come. :-)
-<figure>
-    <a href="/images/pear-logo.png"><img src="/images/pear-logo.png"></a>
-</figure>
+
+![](/images/pear-logo.jpg)
 
 ###What is PeARS?
 

@@ -12,7 +12,7 @@ I remember times when I used to eagerly wait for my school final exams to get th
 
 So I joined my office exactly on April 1st ( Which date could be more appropriate than this, eh? ). All the faces were extremely welcoming and warm, and some of which quite familiar too, most of them being mallu faces. I had great fun shooting people with laser guns on my first day itself. Thanks to Ershad for his awesome birthday treat. My timing was just perfect.
 
-[![Image]({{ site.baseurl }}/assets/547589_10151558520005801_1027744001_n.jpg?w=630)](http://nandajavarma.files.wordpress.com/2013/04/547589_10151558520005801_1027744001_n.jpg)
+![](/images/bangalore.jpg)
 
 My internship started off pretty smoothly. Although I didn't know Ruby I managed to understand their code base to a very small extend and started poking around with it. Office has been just awesome. To add to the fun, there is a refrigerator for you to raid whenever you are hungry and a coffeemaker which refreshes you with lattes and cappachinos (which I'll miss very badly) :-(
 

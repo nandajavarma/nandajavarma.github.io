@@ -41,13 +41,11 @@ PeARS[<a href="http://pearsearch.org">product placement</a>] and it felt so rela
 ever changing landscapes.
 
 
-<figure>
-    <a href="/images/IMG_1553.JPG"><img src="/images/IMG_1553.JPG"></a>
-    <figcaption>Only one word that can describe my feeling when this
-picture was taken - Liberation! And that makes this picture my
-favourite.</figcaption>
-</figure>
+![](/images/IMG_1553.jpg)
 
+_Only one word that can describe my feeling when this
+picture was taken - Liberation! And that makes this picture my
+favourite_
 
 All the stories you hear growing up, how people are so bad in the
 country, why a woman should never travel alone, etc. makes you so

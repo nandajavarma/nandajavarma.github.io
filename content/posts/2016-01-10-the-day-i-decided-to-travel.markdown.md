@@ -56,10 +56,9 @@ I started my journey in Italy. My backpacking trail then advanced to
 Austria, Hungary, Czech Republic, Germany, Netherlands, Belgium and
 ended in France, from where I flew back to Bangalore.
 
-<figure>
-    <a href="/img/IMG_0480.jpg"><img src="/img/IMG_0480.jpg"></a>
-    <figcaption>I was trying to capture the mighty alps, ended up taking a spooky selfie</figcaption>
-</figure>
+![](/images/IMG_0480.jpg)
+_I was trying to capture the mighty alps, ended up taking a spooky selfie_
+
 
 I now truly understand the term 'Seeing the world'. I have heard people
 saying about folks who are age old that they have seen the world. I

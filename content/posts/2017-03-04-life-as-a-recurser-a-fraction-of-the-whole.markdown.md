@@ -72,10 +72,8 @@ things I want to accomplish by myself. I sometimes feel like I don't do
 much and that I get too side tracked but the fact that I keep learning
 and working makes me happy.
 
-<figure>
-    <a href="/img/RC.jpg"><img src="/img/RC.jpg"></a>
-    <figcaption>A usual Thursday evening at RC</figcaption>
-</figure>
+![](/images/RC.jpg)
+_A usual Thursday evening at RC_
 
 Don't get the wrong impression that RC is just about learning 24/7 and
 burning yourself out. We have a lot of social events happening
@@ -89,10 +87,8 @@ cherry on top of the cake for me since this is the first time I am
 actually seeing snow showers! Also, I take kick-boxings lessons here. So
 much fun!
 
-<figure>
-    <img src="/img/kick-boxing.jpg">
-    <figcaption>That's just the way we roll. ;-)</figcaption>
-</figure>
+![](/images/kick-boxing.jpg)
+_That's just the way we roll. ;-)_
 
 
 So things I look forward to doing in the next 8 weeks - Spring in New York(!!)
