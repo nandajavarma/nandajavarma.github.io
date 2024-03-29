@@ -1,5 +1,6 @@
 ---
 title: Using KubeIP to have static IP in GKE
+custom_domain: nandaja.com
 date: 2021-04-17 19:58:42.000000000 +05:30
 category: tech
 tags:

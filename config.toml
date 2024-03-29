@@ -2,6 +2,8 @@ baseURL = 'https://nandaja.space/'
 languageCode = 'en-us'
 title = 'Nandaja'
 
+favicon = "r"
+
 theme = "hugo-bearblog"
 
 copyright = "Nandaja Varma" # cactus will use title if copyright is not set
@@ -9,11 +11,6 @@ disqusShortname = "example" # Used when comments is enabled. Cactus will use sit
 
 
 # Main menu which appears below site header.
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
 [[menu.main]]
 name = "Blog"
 url = "/posts"
