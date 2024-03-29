@@ -1,30 +1,16 @@
-baseURL = 'https://nandaja.space/'
+baseURL = 'https://nandaja.com'
 languageCode = 'en-us'
 title = 'Nandaja'
 
-favicon = "r"
-
 theme = "hugo-bearblog"
 
-copyright = "Nandaja Varma" # cactus will use title if copyright is not set
-disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
-
+copyright = "Nandaja" # cactus will use title if copyright is not set
 
 # Main menu which appears below site header.
 [[menu.main]]
 name = "Blog"
 url = "/posts"
 weight = 2
-
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 3
-
-[[menu.main]]
-name = "About"
-url = "/about"
-weight = 4
 
 [markup]
   [markup.tableOfContents]
@@ -60,7 +46,7 @@ weight = 4
   projectsUrl = "https://github.com/nandajavarma" # title link for projects list
 
   # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
-  dateFormat = "2006-01-02" # default
+  dateFormat = "02 Jan 2006"
 
   # Post page settings
   show_updated = true # default
