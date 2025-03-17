@@ -2,80 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on Nandaja.</title>
-    <link>http://localhost:60425/tags/linux/</link>
+    <link>https://example.com/tags/linux/</link>
     <description>Recent content in Linux on Nandaja.</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>cn</language>
     <lastBuildDate>Mon, 07 Jan 2013 22:58:42 +0530</lastBuildDate>
-    
-	<atom:link href="http://localhost:60425/tags/linux/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://example.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Patching using quilt</title>
-      <link>http://localhost:60425/post/2013-01-07-patching-using-quilt/</link>
+      <link>https://example.com/post/2013-01-07-patching-using-quilt/</link>
       <pubDate>Mon, 07 Jan 2013 22:58:42 +0530</pubDate>
-      
-      <guid>http://localhost:60425/post/2013-01-07-patching-using-quilt/</guid>
-      <description>&lt;p&gt;Patch files are files used to apply changes to the source code of a computer program. These changes may be for fixing bugs or for extending functionality. Quilt is a software utility for managing patches. Quilt is highly used among Linux kernal developers for managing patches. I started using quilt when I had to patch a piece of code while I was packaging for debian. Debian source packages usually use quilt. It has been incorporated into dpkg (Debian&amp;rsquo;s package manager).&lt;/p&gt;
-&lt;p&gt;So, Let&amp;rsquo;s say you downloaded a debian package and found a bug in it. So you will have to create a patch and send it to the Debian developers for their review and approval.&lt;/p&gt;
-&lt;p&gt;Assuming that you&amp;rsquo;ve quilt installed (sudo apt-get install quilt) first step is to create the configuration file .quiltrc.&lt;/p&gt;
-&lt;p&gt;Create a file named .quiltrc in your home directory and open it up in your favorite editor. Copy the following lines into the editor, save it and exit.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;QUILT_PATCHES=debian/patches
-QUILT_NO_DIFF_INDEX=1
-QUILT_NO_DIFF_TIMESTAMPS=1
-QUILT_REFRESH_ARGS=&amp;quot;-p ab&amp;quot;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Quilt work with some directories. It will create a .pc/ directory and patches/ directory. As in the case of debian packages, you can find the patches you made (Or going to make) under debian/patches/ directory.&lt;/p&gt;
-&lt;p&gt;Now we will create the new patch.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;quilt new this_is_my_patch.patch&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Next step is to let quilt know which file we are going to edit and for that the command is as follows.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;quilt add /path/to/the/file/to/edit&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Now open up the file in your favorite editor, make the changes, save it and exit. Alternatively, you can add and edit the file in a single step like this :&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;quilt edit path/to/the/file/to/edit&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The file will open up either in nano or vim where you can make changes, save and exit.&lt;/p&gt;
-&lt;p&gt;Now to apply the patch enter the command:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;quilt refresh&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Now two other important commands while we are dealing with quilt is pop and push. Pop will remove a patch while push will apply it. The patches are basically arranged in a stack like form by quilt. If we do a pop, the patch we applied recently will be removed, even though we can find the patch file under patches directory. So when we do a push now, that patch will be re-applied. Commands for both these are quite straightforward.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;quilt pop&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;quilt push&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Now, If you want to edit an existing patch, Make sure that the patch is applied. That is,&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;quilt push -a&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;(&amp;lsquo;a&amp;rsquo; as in all)&lt;/p&gt;
-&lt;p&gt;Then edit the file as required and just run:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;quilt refresh&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;While we are building the package, We may want to remove all the patches associated with it. And to do that either we can enter the command &lt;strong&gt;quilt pop -a&lt;/strong&gt; each time we build the package or we can create a file named local-changes under debian/source/ directory containing the single line unapply-patches so that the patches will be automatically removed after a local build (Considered as a good practice. ).&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;echo &amp;ldquo;unapply-patches&amp;rdquo; &amp;gt; debian/source/local-changes&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;That&amp;rsquo;s pretty much the most basic steps involved. For diving in deeper (Ha! As if. ) refer : &lt;a href=&#34;http://www.debian.org/doc/manuals/maint-guide/modify.en.html#quiltrc&#34;&gt;http://www.debian.org/doc/manuals/maint-guide/modify.en.html#quiltrc&lt;/a&gt; (Didn&amp;rsquo;t help me much. )&lt;/p&gt;
-&lt;p&gt;Also there are some standards we ought to follow when we are creating a patch, so that everyone can understand it&amp;rsquo;s purpose, author etc. The one I followed is DEP-3 and find more about it here: &lt;a href=&#34;http://dep.debian.net/deps/dep3/&#34;&gt;http://dep.debian.net/deps/dep3/&lt;/a&gt; . It involves just some simple steps when we add some line in the beginning of our patch file like - Description, Author, Forwarded, Date modified, etc.&lt;/p&gt;
-&lt;p&gt;And do not forget to let git know all the changes you&amp;rsquo;ve made, if you are using git.&lt;/p&gt;
-</description>
+      <guid>https://example.com/post/2013-01-07-patching-using-quilt/</guid>
+      <description>&lt;p&gt;Patch files are files used to apply changes to the source code of a computer program. These changes may be for fixing bugs or for extending functionality. Quilt is a software utility for managing patches. Quilt is highly used among Linux kernal developers for managing patches. I started using quilt when I had to patch a piece of code while I was packaging for debian. Debian source packages usually use quilt. It has been incorporated into dpkg (Debian&amp;rsquo;s package manager).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>GNU Project Debugger</title>
-      <link>http://localhost:60425/post/2012-12-09-gnu-project-debugger/</link>
+      <link>https://example.com/post/2012-12-09-gnu-project-debugger/</link>
       <pubDate>Sun, 09 Dec 2012 08:26:05 +0530</pubDate>
-      
-      <guid>http://localhost:60425/post/2012-12-09-gnu-project-debugger/</guid>
-      <description>&lt;p&gt;Today I came across a very nifty tool on my linux system. It is GNU Project Debugger a.k.a GDB. It is the standard debugger in UNIX. It lets you poke around your program and find out what is wrong with your program, if it crashed or gave you unexpected results. It can be used to debug programs written in Ada, Java, Pascal etc.( Although I haven&amp;rsquo;t tried it yet on anything other than C programs). So, yeah, it is a very powerful tool. I played around with it for a little while and it seems pretty easy. I am sure if I give it a little more effort, I sure can make best friends with GDB pretty soon. I wish I knew  GDB six months ago when I kept getting segmentation faults in my Data structures lab.&lt;/p&gt;
-&lt;p&gt;To startup GDB all you need to do is, in your terminal, go to the folder where you have the executable code of your crashed program and run the following command :&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;gdb &lt;exe filename&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;for eg. :&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;gdb ./a.out&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;(a.out being the default name for an executable file)&lt;/p&gt;
-&lt;p&gt;Once you did run that command, it will show some copyright information and finally you&amp;rsquo;ll get a (gdb) prompt. Now you can poke around your executable source code as you wish. To run the program inside gdb all you need to do is run the command &lt;strong&gt;run.&lt;/strong&gt; There are many nifty commands in there, like &lt;strong&gt;next&lt;/strong&gt;- to move around the program line-by-line, &lt;strong&gt;print&lt;/strong&gt;- to print the value of each variable, &lt;strong&gt;break&lt;/strong&gt;- to set the breakpoint (And this is a pretty good one. You can actually pause programs at a particular function or a line so that you can re-run the program n number of times from that breakpoint).&lt;/p&gt;
-&lt;p&gt;Some other powerful tools in GDB are :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;display&lt;/li&gt;
-&lt;li&gt;info&lt;/li&gt;
-&lt;li&gt;continue&lt;/li&gt;
-&lt;li&gt;backtrace&lt;/li&gt;
-&lt;li&gt;frame&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;etc.&lt;/p&gt;
-&lt;p&gt;I am exploring all the cool stuffs that I can do with GDB and yeah, and it seems like I am getting the hang of it real quick.&lt;/p&gt;
-</description>
+      <guid>https://example.com/post/2012-12-09-gnu-project-debugger/</guid>
+      <description>&lt;p&gt;Today I came across a very nifty tool on my linux system. It is GNU Project Debugger a.k.a GDB. It is the standard debugger in UNIX. It lets you poke around your program and find out what is wrong with your program, if it crashed or gave you unexpected results. It can be used to debug programs written in Ada, Java, Pascal etc.( Although I haven&amp;rsquo;t tried it yet on anything other than C programs). So, yeah, it is a very powerful tool. I played around with it for a little while and it seems pretty easy. I am sure if I give it a little more effort, I sure can make best friends with GDB pretty soon. I wish I knew  GDB six months ago when I kept getting segmentation faults in my Data structures lab.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

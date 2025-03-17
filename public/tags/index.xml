@@ -2,284 +2,221 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Nandaja.</title>
-    <link>http://localhost:60425/tags/</link>
+    <link>https://example.com/tags/</link>
     <description>Recent content in Tags on Nandaja.</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>cn</language>
     <lastBuildDate>Sat, 17 Apr 2021 19:58:42 +0530</lastBuildDate>
-    
-	<atom:link href="http://localhost:60425/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aws</title>
-      <link>http://localhost:60425/tags/aws/</link>
+      <link>https://example.com/tags/aws/</link>
       <pubDate>Sat, 17 Apr 2021 19:58:42 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/aws/</guid>
+      <guid>https://example.com/tags/aws/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Gcp</title>
-      <link>http://localhost:60425/tags/gcp/</link>
+      <link>https://example.com/tags/gcp/</link>
       <pubDate>Sat, 17 Apr 2021 19:58:42 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/gcp/</guid>
+      <guid>https://example.com/tags/gcp/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Hack</title>
-      <link>http://localhost:60425/tags/hack/</link>
+      <link>https://example.com/tags/hack/</link>
       <pubDate>Sat, 17 Apr 2021 19:58:42 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/hack/</guid>
+      <guid>https://example.com/tags/hack/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Index</title>
-      <link>http://localhost:60425/tags/index/</link>
+      <link>https://example.com/tags/index/</link>
       <pubDate>Sat, 17 Apr 2021 19:58:42 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/index/</guid>
+      <guid>https://example.com/tags/index/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Kubernetes</title>
-      <link>http://localhost:60425/tags/kubernetes/</link>
+      <link>https://example.com/tags/kubernetes/</link>
       <pubDate>Sat, 17 Apr 2021 19:58:42 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/kubernetes/</guid>
+      <guid>https://example.com/tags/kubernetes/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Learning</title>
-      <link>http://localhost:60425/tags/learning/</link>
+      <link>https://example.com/tags/learning/</link>
       <pubDate>Sat, 04 Mar 2017 01:58:42 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/learning/</guid>
+      <guid>https://example.com/tags/learning/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>New York</title>
-      <link>http://localhost:60425/tags/new-york/</link>
+      <link>https://example.com/tags/new-york/</link>
       <pubDate>Sat, 04 Mar 2017 01:58:42 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/new-york/</guid>
+      <guid>https://example.com/tags/new-york/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Recurse Center</title>
-      <link>http://localhost:60425/tags/recurse-center/</link>
+      <link>https://example.com/tags/recurse-center/</link>
       <pubDate>Sat, 04 Mar 2017 01:58:42 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/recurse-center/</guid>
+      <guid>https://example.com/tags/recurse-center/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Edinburgh</title>
-      <link>http://localhost:60425/tags/edinburgh/</link>
+      <link>https://example.com/tags/edinburgh/</link>
       <pubDate>Tue, 06 Dec 2016 19:58:42 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/edinburgh/</guid>
+      <guid>https://example.com/tags/edinburgh/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Travel</title>
-      <link>http://localhost:60425/tags/travel/</link>
+      <link>https://example.com/tags/travel/</link>
       <pubDate>Tue, 06 Dec 2016 19:58:42 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/travel/</guid>
+      <guid>https://example.com/tags/travel/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Uk</title>
-      <link>http://localhost:60425/tags/uk/</link>
+      <link>https://example.com/tags/uk/</link>
       <pubDate>Tue, 06 Dec 2016 19:58:42 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/uk/</guid>
+      <guid>https://example.com/tags/uk/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Clojure</title>
-      <link>http://localhost:60425/tags/clojure/</link>
+      <link>https://example.com/tags/clojure/</link>
       <pubDate>Sun, 30 Oct 2016 16:58:42 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/clojure/</guid>
+      <guid>https://example.com/tags/clojure/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Programming Languages</title>
-      <link>http://localhost:60425/tags/programming-languages/</link>
+      <link>https://example.com/tags/programming-languages/</link>
       <pubDate>Sun, 30 Oct 2016 16:58:42 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/programming-languages/</guid>
+      <guid>https://example.com/tags/programming-languages/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>India</title>
-      <link>http://localhost:60425/tags/india/</link>
+      <link>https://example.com/tags/india/</link>
       <pubDate>Sun, 04 Sep 2016 18:58:42 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/india/</guid>
+      <guid>https://example.com/tags/india/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Euro-Trip</title>
-      <link>http://localhost:60425/tags/euro-trip/</link>
+      <link>https://example.com/tags/euro-trip/</link>
       <pubDate>Sun, 10 Jan 2016 15:58:42 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/euro-trip/</guid>
+      <guid>https://example.com/tags/euro-trip/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Community</title>
-      <link>http://localhost:60425/tags/community/</link>
+      <link>https://example.com/tags/community/</link>
       <pubDate>Sat, 19 Sep 2015 18:58:42 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/community/</guid>
+      <guid>https://example.com/tags/community/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Intro</title>
-      <link>http://localhost:60425/tags/intro/</link>
+      <link>https://example.com/tags/intro/</link>
       <pubDate>Sat, 19 Sep 2015 18:58:42 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/intro/</guid>
+      <guid>https://example.com/tags/intro/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Pears</title>
-      <link>http://localhost:60425/tags/pears/</link>
+      <link>https://example.com/tags/pears/</link>
       <pubDate>Sat, 19 Sep 2015 18:58:42 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/pears/</guid>
+      <guid>https://example.com/tags/pears/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Gsoc</title>
-      <link>http://localhost:60425/tags/gsoc/</link>
+      <link>https://example.com/tags/gsoc/</link>
       <pubDate>Mon, 26 Aug 2013 19:58:42 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/gsoc/</guid>
+      <guid>https://example.com/tags/gsoc/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Smc</title>
-      <link>http://localhost:60425/tags/smc/</link>
+      <link>https://example.com/tags/smc/</link>
       <pubDate>Mon, 26 Aug 2013 19:58:42 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/smc/</guid>
+      <guid>https://example.com/tags/smc/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Bangalore</title>
-      <link>http://localhost:60425/tags/bangalore/</link>
+      <link>https://example.com/tags/bangalore/</link>
       <pubDate>Mon, 29 Apr 2013 20:58:42 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/bangalore/</guid>
+      <guid>https://example.com/tags/bangalore/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Linux</title>
-      <link>http://localhost:60425/tags/linux/</link>
+      <link>https://example.com/tags/linux/</link>
       <pubDate>Mon, 07 Jan 2013 22:58:42 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/linux/</guid>
+      <guid>https://example.com/tags/linux/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Terminal</title>
-      <link>http://localhost:60425/tags/terminal/</link>
+      <link>https://example.com/tags/terminal/</link>
       <pubDate>Sat, 22 Dec 2012 21:58:42 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/terminal/</guid>
+      <guid>https://example.com/tags/terminal/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Gnux</title>
-      <link>http://localhost:60425/tags/gnux/</link>
+      <link>https://example.com/tags/gnux/</link>
       <pubDate>Sun, 09 Dec 2012 08:26:05 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/gnux/</guid>
+      <guid>https://example.com/tags/gnux/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Perl</title>
-      <link>http://localhost:60425/tags/perl/</link>
+      <link>https://example.com/tags/perl/</link>
       <pubDate>Sun, 02 Dec 2012 17:58:42 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/perl/</guid>
+      <guid>https://example.com/tags/perl/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Debian</title>
-      <link>http://localhost:60425/tags/debian/</link>
+      <link>https://example.com/tags/debian/</link>
       <pubDate>Fri, 30 Nov 2012 18:26:05 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/debian/</guid>
+      <guid>https://example.com/tags/debian/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Packaging</title>
-      <link>http://localhost:60425/tags/packaging/</link>
+      <link>https://example.com/tags/packaging/</link>
       <pubDate>Fri, 30 Nov 2012 18:26:05 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/packaging/</guid>
+      <guid>https://example.com/tags/packaging/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Diaspora</title>
-      <link>http://localhost:60425/tags/diaspora/</link>
+      <link>https://example.com/tags/diaspora/</link>
       <pubDate>Fri, 02 Nov 2012 08:26:05 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/diaspora/</guid>
+      <guid>https://example.com/tags/diaspora/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Social Network</title>
-      <link>http://localhost:60425/tags/social-network/</link>
+      <link>https://example.com/tags/social-network/</link>
       <pubDate>Fri, 02 Nov 2012 08:26:05 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/social-network/</guid>
+      <guid>https://example.com/tags/social-network/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Test</title>
-      <link>http://localhost:60425/tags/test/</link>
+      <link>https://example.com/tags/test/</link>
       <pubDate>Tue, 30 Oct 2012 08:26:05 +0530</pubDate>
-      
-      <guid>http://localhost:60425/tags/test/</guid>
+      <guid>https://example.com/tags/test/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
