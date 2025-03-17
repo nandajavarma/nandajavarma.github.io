@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diaspora on Nandaja.</title>
+    <link>https://example.com/tags/diaspora/</link>
+    <description>Recent content in Diaspora on Nandaja.</description>
+    <generator>Hugo</generator>
+    <language>cn</language>
+    <lastBuildDate>Fri, 02 Nov 2012 08:26:05 +0530</lastBuildDate>
+    <atom:link href="https://example.com/tags/diaspora/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Diaspora</title>
+      <link>https://example.com/post/2012-11-02-diaspora-im-lovin-it/</link>
+      <pubDate>Fri, 02 Nov 2012 08:26:05 +0530</pubDate>
+      <guid>https://example.com/post/2012-11-02-diaspora-im-lovin-it/</guid>
+      <description>&lt;p&gt;Howdy,&#xA;Social networking is an experience that most of us do love. The most recent addition to this colossal world of social networking is diaspora.&lt;/p&gt;&#xA;&lt;p&gt;Diaspora is a free personalized web server that can be installed and implemented as a distributed social network. In simple words, we own our own social networking site (More or less) . Unlike the other social networking sites, where the members are treated as mere products,in diaspora we are our own masters. Many pods/servers are maintained by numerous private groups/ individuals all around the world. We can create our account in any one of them or we can opt to run our own pod. And as it is distributed, We can connect to people with account in any other pods. Pretty cool, huh?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

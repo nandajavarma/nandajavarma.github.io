@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gcp on Nandaja.</title>
+    <link>https://example.com/tags/gcp/</link>
+    <description>Recent content in Gcp on Nandaja.</description>
+    <generator>Hugo</generator>
+    <language>cn</language>
+    <lastBuildDate>Sat, 17 Apr 2021 19:58:42 +0530</lastBuildDate>
+    <atom:link href="https://example.com/tags/gcp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using KubeIP to have static IP in GKE</title>
+      <link>https://example.com/post/2021-04-17-using-kubeip-to-have-statis-ips-in-a-kubernetes-cluster/</link>
+      <pubDate>Sat, 17 Apr 2021 19:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2021-04-17-using-kubeip-to-have-statis-ips-in-a-kubernetes-cluster/</guid>
+      <description>&lt;p&gt;This is a small rant about a library I discovered some time ago  at work to use&#xA;with our Kubernetes cluster manged by Google Cloud. The library is called &lt;a href=&#34;https://kubeip.com/&#34; title=&#34;Kube IP&#34;&gt;&lt;em&gt;Kube&#xA;IP&lt;/em&gt;&lt;/a&gt; and I absolutely love it!&lt;/p&gt;&#xA;&lt;h2 id=&#34;infrastructure-on-aws&#34;&gt;Infrastructure on AWS&lt;/h2&gt;&#xA;&lt;p&gt;At my current work(which I will be leaving in 2 weeks to be exact), I started&#xA;maintaining a cloud managed Kubernetes cluster(GKE) some 6 months ago. Kubenetes&#xA;felt like the right kind of tool for our infrastructure needs and so far it has&#xA;been a really thrilling experience. Before this we used to use AWS exclusively&#xA;and used to have containarized apps deployed in separate EC2 instances. This&#xA;turned out slightly more expensive and resulted in a lot of resource waste. All&#xA;of these machines were inside a public subnet in a VPC. We had a big PostgreSQL&#xA;database to which all of the aforementioned apps communicated with. The design&#xA;decision I took was to use AWS RDS for the database server and keep it in a&#xA;private subnet under the same VPC. I added inbound rules on the security group&#xA;to allow connections to the EC2 instances in the VPC.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

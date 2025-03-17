@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Perl on Nandaja.</title>
+    <link>https://example.com/tags/perl/</link>
+    <description>Recent content in Perl on Nandaja.</description>
+    <generator>Hugo</generator>
+    <language>cn</language>
+    <lastBuildDate>Sun, 02 Dec 2012 17:58:42 +0530</lastBuildDate>
+    <atom:link href="https://example.com/tags/perl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>perl warning Setting locale failed</title>
+      <link>https://example.com/post/2012-12-02-perl-warning-setting-locale-failed/</link>
+      <pubDate>Sun, 02 Dec 2012 17:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2012-12-02-perl-warning-setting-locale-failed/</guid>
+      <description>&lt;p&gt;Today when I was trying to build a package on a Debian VPS, It started reporting really annoying messages like these:&lt;/p&gt;&#xA;&lt;p&gt;perl: warning: Setting locale failed.&lt;br&gt;&#xA;perl: warning: Please check that your locale settings:&lt;br&gt;&#xA;LANGUAGE = (unset),&lt;br&gt;&#xA;LC_ALL = (unset),&lt;br&gt;&#xA;LANG = &amp;ldquo;en_US.UTF-8&amp;rdquo;&lt;br&gt;&#xA;are supported and installed on your system.&lt;br&gt;&#xA;perl: warning: Falling back to the standard locale (&amp;ldquo;C&amp;rdquo;).&lt;/p&gt;&#xA;&lt;p&gt;Then I was trying to install a new package, I got them again. Eventhough it doesn&amp;rsquo;t cause any harm, a screen full of such messages really is annoying. I googled it and found out that I am not the only person with this problem. I could find a couple of solutions for this and the easiest one worked for me. Run the following command in your terminal:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

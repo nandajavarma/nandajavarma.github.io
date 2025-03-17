@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Community on Nandaja.</title>
+    <link>https://example.com/tags/community/</link>
+    <description>Recent content in Community on Nandaja.</description>
+    <generator>Hugo</generator>
+    <language>cn</language>
+    <lastBuildDate>Sat, 19 Sep 2015 18:58:42 +0530</lastBuildDate>
+    <atom:link href="https://example.com/tags/community/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Future Import PeARS, Part - 1</title>
+      <link>https://example.com/post/2015-09-18-from-future-import-pears-part-1.markdown/</link>
+      <pubDate>Sat, 19 Sep 2015 18:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2015-09-18-from-future-import-pears-part-1.markdown/</guid>
+      <description>&lt;p&gt;PeARS (or Peer-to-peer Agent for Reciprocated Search, if you would prefer that) is a distributed search engine project that I got involved with very recently. It is a very interesting and ambitious idea that &lt;a href=&#34;http://aurelieherbelot.net/&#34;&gt;Aurelie Herbelot&lt;/a&gt; thought of, to make searching more secure, accurate and very much user reliant. For an official intro from the skipper herself head over to her &lt;a href=&#34;http://aurelieherbelot.net/pears/&#34;&gt;blog&lt;/a&gt;. What I am trying to share via this post is the current status of the project, where we see PeARS down the road, how much we would love others to look into the project, and what not. Hopefully the first of many more come. :-)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GSoC Weekly update</title>
+      <link>https://example.com/post/2013-08-26-gsoc-weeklystatus-update-9/</link>
+      <pubDate>Mon, 26 Aug 2013 19:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2013-08-26-gsoc-weeklystatus-update-9/</guid>
+      <description>&lt;p&gt;The work of mine has been correcting the reference glyph files and developing a web interface for the proposed framework. I had tried and made the reference files least buggy as possible. I have gone through the glyph names of almost all the 243 words in 4 fonts. I had to invest a lot of time on this especially due to one minor misunderstanding of mine on the multiple correct renderings of the words. And I hope it will get much refined after Rajeeshettan proof read it for 2 fonts as he has suggested.&lt;br&gt;&#xA;(I have changed the renderings of words with repham in Rachana such that the dotreph comes first. So words like these &lt;a href=&#34;http://troll.ws/image/2e3a872e&#34;&gt;http://troll.ws/image/2e3a872e&lt;/a&gt;, &lt;a href=&#34;http://troll.ws/image/469dd87a&#34;&gt;http://troll.ws/image/469dd87a&lt;/a&gt;, &lt;a href=&#34;http://troll.ws/image/5838dbec&#34;&gt;http://troll.ws/image/5838dbec&lt;/a&gt; although looks correct, will be in the wrongly rendered words list by harfbuzz.)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GSoC Weekly update</title>
+      <link>https://example.com/post/2013-08-17-gsoc-weekly-status-update-8/</link>
+      <pubDate>Sat, 17 Aug 2013 18:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2013-08-17-gsoc-weekly-status-update-8/</guid>
+      <description>&lt;p&gt;I have changed the framework interface from its previous form, although the previous front end automated_rendering_testing.py is still present in the repo. Now the new interface, rendering_testing.py, need all the file names to be provided as command line arguments. The user gets the convenience  of using the tab completion this way. The user will have to give as command line arguments 6 files (font  file, test cases file, reference file, rendering output and files to store output) and an optional directory name(if the engine is harfbuzz).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GSoC Weekly update</title>
+      <link>https://example.com/post/2013-08-11-gsoc-weekly-update-6/</link>
+      <pubDate>Sun, 11 Aug 2013 18:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2013-08-11-gsoc-weekly-update-6/</guid>
+      <description>&lt;p&gt;The past two weeks has been a blur with a lot of travelling and minimal Internet access. The following are the works I have been doing so far:&lt;/p&gt;&#xA;&lt;p&gt;The following modifications were asked to be made on the existing framework by my mentor after a Hangout session as part of the evaluations:&lt;/p&gt;&#xA;&lt;p&gt;1. Modify the comparison algorithm so as to show positive results for the words with multiple correct renderings - This modification is made. Now, the user can give multiple glyph names separated by comma in the reference file and if the rendering matches any one of these, the framework will return a positive response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GSoC Weekly update</title>
+      <link>https://example.com/post/2013-07-28-gsoc-weekly-update-5/</link>
+      <pubDate>Sun, 28 Jul 2013 15:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2013-07-28-gsoc-weekly-update-5/</guid>
+      <description>&lt;p&gt;The works this week has been a little slow with college exams and assignments. This is what I have done so far this week.&lt;/p&gt;&#xA;&lt;p&gt;I have completed the list of reference files containing glyph names of 243 words from four fonts each. Fonts being: Rachana, Meera, Suruma and Lohit-Malayalaam.&lt;/p&gt;&#xA;&lt;p&gt;The code has been modified to equip not only harfbuzz renderings but renderings from other engines line Uniscribe, provided the user will produce the output of the rendering engine herself/himself. I have created a Python package containing 2 modules each for testing and creating output. The main script automated_rendering_testing.py  will make use of this package to test and give the final result. To test the framework, one can just run ./automated_rendering_testing and then provide the necessary  information, when asked.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GSoC Weekly update</title>
+      <link>https://example.com/post/2013-07-20-gsoc-weekly-report-4/</link>
+      <pubDate>Sat, 20 Jul 2013 19:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2013-07-20-gsoc-weekly-report-4/</guid>
+      <description>&lt;p&gt;This week my main task was to migrate my code to Python. As of now I have implemented my algorithm in Python. Here is the link to the repo : &lt;a href=&#34;https://github.com/nandajavarma/Automated-Rendering-Testing&#34;&gt;https://github.com/nandajavarma/Automated-Rendering-Testing&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I have expanded my test cases&amp;rsquo; list a bit. Now it has 243 Malayalam words. I have manually created files with glyph names of these test cases in four fonts: Rachana, Meera, Suruma and Lohith-Malayalam in files names rachana-glyph.txt,  meera-glyph.txt etc. (It is still a bit buggy, so haven&amp;rsquo;t pushed the latest commit of this yet).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GSoC Weekly update</title>
+      <link>https://example.com/post/2013-07-14-gsoc-weekly-update-3/</link>
+      <pubDate>Sun, 14 Jul 2013 19:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2013-07-14-gsoc-weekly-update-3/</guid>
+      <description>&lt;p&gt;This week I&amp;rsquo;ve been working on generating a baseline glyphs file for 4 fonts: Rachana, Meera, Suruma and Lohith-Malayalam. I have selected some malayalam words from harfbuzz tree and Santhosh Thottingal&amp;rsquo;s test cases which I thought would be enough to test rendering problems. Then I started listing the glyph names of these files for each fonts in separate text files. To get the corresponding Unicode code point of each word, I wrote a small Java code. So I executed the script on each word, found all the code points and made 4 text files that contains the corresponding glyph names of the four fonts I mentioned earlier.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GSoC Weekly update</title>
+      <link>https://example.com/post/2013-06-29-gsoc-weekly-update-2/</link>
+      <pubDate>Sat, 29 Jun 2013 15:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2013-06-29-gsoc-weekly-update-2/</guid>
+      <description>&lt;p&gt;Coding period for GSoC has started the past week and I have been working on a very simple implementation of the proposal in C and two tiny bash scripts. My code is available here: &lt;a href=&#34;https://github.com/nandajavarma/Automated-Rendering-Testing&#34;&gt;https://github.com/nandajavarma/Automated-Rendering-Testing&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The first thing to be done to test using these scripts is create a file that contains a set of words to be tested to see if their rendering is correct. Here I have taken a sample test data file created by SMC a while ago (ml-harfbuzz-testdata,txt). Now pass this file through the script render_test.sh along with the necessary font file. That is:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GSoC - Community engagement period</title>
+      <link>https://example.com/post/2013-06-10-gsoc-community-engagement-period/</link>
+      <pubDate>Mon, 10 Jun 2013 18:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2013-06-10-gsoc-community-engagement-period/</guid>
+      <description>&lt;p&gt;GSoC 2013 approved project list was published on May 27th and the community engagement period was started from May 29th onwards. During this period the students are supposed to bond with their mentors, read the documentations and finalize your plans so you can have a head start with your project. The project topic for which I have got accepted for is &amp;ldquo;Automated rendering testing&amp;rdquo; and I will be completing that project under Swathanthra Malayalam Computing. I could learn a lot a new stuff so far during this community bonding period with a heavy deal of help from my mentor Rajeesh K Nambiar, although I haven&amp;rsquo;t started actual coding yet. I will try to explain my proposal status and further steps here, in detail.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MiniDebConf at NIT-C</title>
+      <link>https://example.com/post/2013-03-11-minidebconf-at-nit-c/</link>
+      <pubDate>Mon, 11 Mar 2013 19:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2013-03-11-minidebconf-at-nit-c/</guid>
+      <description>&lt;p&gt;Ever since I started loving FOSS, I really wanted to attend a FOSSMeet. And last month I got extremely lucky and could attend FOSSMeet at NIT-C. This year along with FOSSMeet a MiniDebConf was also arranged. A month prior to it, I was asked to give a Ruby gem packaging session at this MiniDebConf. I was quite nervous because this was the first FOSS event I ever attended and I was asked to give a session. But I knew it would be a great experience, So I decided to go with it.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

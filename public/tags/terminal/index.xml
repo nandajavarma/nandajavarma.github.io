@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminal on Nandaja.</title>
+    <link>https://example.com/tags/terminal/</link>
+    <description>Recent content in Terminal on Nandaja.</description>
+    <generator>Hugo</generator>
+    <language>cn</language>
+    <lastBuildDate>Sat, 22 Dec 2012 21:58:42 +0530</lastBuildDate>
+    <atom:link href="https://example.com/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anti virus for Linux</title>
+      <link>https://example.com/post/2012-12-22-anti-virus-for-linux/</link>
+      <pubDate>Sat, 22 Dec 2012 21:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2012-12-22-anti-virus-for-linux/</guid>
+      <description>&lt;p&gt;Using an anti virus software in my Linux machine is something that I have not given much thought to. I know for the fact that the odds for a Linux system to get affected by a malware is pretty low. As of my understanding, the fact that Linux systems use open source software is a big bonus here. I mean, why would some one bother in sitting and writing a harmful program when everyone can see your code. Also crackers aim at a much elaborate target. I am sure they have better things to do than messing with some Linux users, which is only 2% of world computer users&amp;rsquo; population. Still, there are executable files that may get into your system via mails or flash drives. But in Linux, nothing will happen if you simply double click an executable file (provided you don&amp;rsquo;t have Wine installed). It won&amp;rsquo;t get executed unless you give it permission for execution. This is much unlikely to happen as Linux users are supposed to know what they are doing (Myself excluded!). And of course, there are many more reasons like user privileges, simplicity of kernal, etc.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quick tip - Installing a software in linux using files in .run format</title>
+      <link>https://example.com/post/2012-12-15-quick-tip-installing-a-package-in-linux-using-run-files/</link>
+      <pubDate>Fri, 14 Dec 2012 22:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2012-12-15-quick-tip-installing-a-package-in-linux-using-run-files/</guid>
+      <description>&lt;p&gt;The .run files are binary executable files. These files need to be executed to install the software. Such files are often considered as unsafe as we cannot find a way to uninstall them and we cannot say what the code will do to your system. But some games and apps are available that are packaged in this file format. Installing using .run file is rather easy.&lt;/p&gt;&#xA;&lt;p&gt;First of all download the required .run file.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Recovering lost password in Ubuntu 12.04</title>
+      <link>https://example.com/post/2012-12-10-recovering-lost-password-in-ubuntu-12-04/</link>
+      <pubDate>Mon, 10 Dec 2012 20:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2012-12-10-recovering-lost-password-in-ubuntu-12-04/</guid>
+      <description>&lt;p&gt;Yesterday, While I was trying to help my friend with his lost Ubuntu password, I explored the following two methods to do this quite easily.&lt;/p&gt;&#xA;&lt;p&gt;First method is using the recovery mode. This method is pretty simple.&lt;/p&gt;&#xA;&lt;p&gt;In the grub menu, select the recovery mode. Then in the menu that appear, scroll down to the option &amp;lsquo;Drop to root shell prompt&amp;rsquo;. Now you will get a shell prompt with root authentication at the bottom of the screen. Now before changing the password we have to remount the root in read write mode and for that run the following command.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>perl warning Setting locale failed</title>
+      <link>https://example.com/post/2012-12-02-perl-warning-setting-locale-failed/</link>
+      <pubDate>Sun, 02 Dec 2012 17:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2012-12-02-perl-warning-setting-locale-failed/</guid>
+      <description>&lt;p&gt;Today when I was trying to build a package on a Debian VPS, It started reporting really annoying messages like these:&lt;/p&gt;&#xA;&lt;p&gt;perl: warning: Setting locale failed.&lt;br&gt;&#xA;perl: warning: Please check that your locale settings:&lt;br&gt;&#xA;LANGUAGE = (unset),&lt;br&gt;&#xA;LC_ALL = (unset),&lt;br&gt;&#xA;LANG = &amp;ldquo;en_US.UTF-8&amp;rdquo;&lt;br&gt;&#xA;are supported and installed on your system.&lt;br&gt;&#xA;perl: warning: Falling back to the standard locale (&amp;ldquo;C&amp;rdquo;).&lt;/p&gt;&#xA;&lt;p&gt;Then I was trying to install a new package, I got them again. Eventhough it doesn&amp;rsquo;t cause any harm, a screen full of such messages really is annoying. I googled it and found out that I am not the only person with this problem. I could find a couple of solutions for this and the easiest one worked for me. Run the following command in your terminal:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

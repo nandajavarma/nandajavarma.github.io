@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming Languages on Nandaja.</title>
+    <link>https://example.com/tags/programming-languages/</link>
+    <description>Recent content in Programming Languages on Nandaja.</description>
+    <generator>Hugo</generator>
+    <language>cn</language>
+    <lastBuildDate>Sun, 30 Oct 2016 16:58:42 +0530</lastBuildDate>
+    <atom:link href="https://example.com/tags/programming-languages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Subjecting myself to a potential failure</title>
+      <link>https://example.com/post/2016-10-30-subjecting-myself-to-a-potential-failure.markdown/</link>
+      <pubDate>Sun, 30 Oct 2016 16:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2016-10-30-subjecting-myself-to-a-potential-failure.markdown/</guid>
+      <description>&lt;p&gt;I am at a point now where I do not officially have a job. The work I do&#xA;right now demands a better grasp on many programming fundamentals and on&#xA;a programming language other than Python - preferably JVM based. I am&#xA;not a very good programmer or exceptionally intelligent. So I have&#xA;decided to invest a huge deal of time and effort to learn what I should&#xA;have learned ages ago.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

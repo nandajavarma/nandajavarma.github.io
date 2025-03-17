@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Nandaja.</title>
+    <link>https://example.com/post/</link>
+    <description>Recent content in Posts on Nandaja.</description>
+    <generator>Hugo</generator>
+    <language>cn</language>
+    <lastBuildDate>Sat, 17 Apr 2021 19:58:42 +0530</lastBuildDate>
+    <atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using KubeIP to have static IP in GKE</title>
+      <link>https://example.com/post/2021-04-17-using-kubeip-to-have-statis-ips-in-a-kubernetes-cluster/</link>
+      <pubDate>Sat, 17 Apr 2021 19:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2021-04-17-using-kubeip-to-have-statis-ips-in-a-kubernetes-cluster/</guid>
+      <description>&lt;p&gt;This is a small rant about a library I discovered some time ago  at work to use&#xA;with our Kubernetes cluster manged by Google Cloud. The library is called &lt;a href=&#34;https://kubeip.com/&#34; title=&#34;Kube IP&#34;&gt;&lt;em&gt;Kube&#xA;IP&lt;/em&gt;&lt;/a&gt; and I absolutely love it!&lt;/p&gt;&#xA;&lt;h2 id=&#34;infrastructure-on-aws&#34;&gt;Infrastructure on AWS&lt;/h2&gt;&#xA;&lt;p&gt;At my current work(which I will be leaving in 2 weeks to be exact), I started&#xA;maintaining a cloud managed Kubernetes cluster(GKE) some 6 months ago. Kubenetes&#xA;felt like the right kind of tool for our infrastructure needs and so far it has&#xA;been a really thrilling experience. Before this we used to use AWS exclusively&#xA;and used to have containarized apps deployed in separate EC2 instances. This&#xA;turned out slightly more expensive and resulted in a lot of resource waste. All&#xA;of these machines were inside a public subnet in a VPC. We had a big PostgreSQL&#xA;database to which all of the aforementioned apps communicated with. The design&#xA;decision I took was to use AWS RDS for the database server and keep it in a&#xA;private subnet under the same VPC. I added inbound rules on the security group&#xA;to allow connections to the EC2 instances in the VPC.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Life as a Recurser - A fraction of the whole</title>
+      <link>https://example.com/post/2017-03-04-life-as-a-recurser-a-fraction-of-the-whole.markdown/</link>
+      <pubDate>Sat, 04 Mar 2017 01:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2017-03-04-life-as-a-recurser-a-fraction-of-the-whole.markdown/</guid>
+      <description>&lt;p&gt;I have been living in New York City as one among the incredible Recurse Center community for the past four weeks. Which means one third of my time as a Recurser is behind me and I can&amp;rsquo;t think of a better occasion to blog about RC. I have been procrastinating blogging for so long, but today is the day I finally do it!&lt;/p&gt;&#xA;&lt;p&gt;What is &lt;a href=&#34;https://www.recurse.com/&#34;&gt;Recurse Center&lt;/a&gt;, you ask?&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;The Recurse Center is a free, self-directed, educational retreat for&#xA;people who want to get better at programming, whether they&amp;rsquo;ve been&#xA;coding for three decades or three months.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A walk (followed by sleeping on benches) to remember</title>
+      <link>https://example.com/post/2016-12-06-a-walk-followed-by-sitting-and-sleeping-on-benches-and-what-not-to-remember.markdown/</link>
+      <pubDate>Tue, 06 Dec 2016 19:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2016-12-06-a-walk-followed-by-sitting-and-sleeping-on-benches-and-what-not-to-remember.markdown/</guid>
+      <description>&lt;p&gt;I am sitting near a fireplace in the outskirts of Threlkeld, a lake&#xA;district village. The view from the window is absolutely breathtaking. I&#xA;can see mist covered farms grazed by sheep, snow clad mountains, winter&#xA;struck trees, and tiny little stone cottages. I can&amp;rsquo;t help but&#xA;contemplate my journey this past couple of weeks around the United&#xA;Kingdom and Ireland and I can&amp;rsquo;t control my urge to write about how&#xA;incredible an adventure it has been. Backpacking in this part of the&#xA;world is very easy in terms of navigating your way through, but not so&#xA;much when it comes to your budget, especially when you have Indian&#xA;Rupees in your bank account(which sadly has hit its record low). But I&#xA;must say, being on a low budget made my journey 10 times interesting -&#xA;thanks to all the incredible people I met along the way who helped me&#xA;out or shared the same low on the budget situation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Subjecting myself to a potential failure</title>
+      <link>https://example.com/post/2016-10-30-subjecting-myself-to-a-potential-failure.markdown/</link>
+      <pubDate>Sun, 30 Oct 2016 16:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2016-10-30-subjecting-myself-to-a-potential-failure.markdown/</guid>
+      <description>&lt;p&gt;I am at a point now where I do not officially have a job. The work I do&#xA;right now demands a better grasp on many programming fundamentals and on&#xA;a programming language other than Python - preferably JVM based. I am&#xA;not a very good programmer or exceptionally intelligent. So I have&#xA;decided to invest a huge deal of time and effort to learn what I should&#xA;have learned ages ago.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Travelling In And Around North India</title>
+      <link>https://example.com/post/2016-09-04-backpacking-in-and-around-north-india.markdown/</link>
+      <pubDate>Sun, 04 Sep 2016 18:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2016-09-04-backpacking-in-and-around-north-india.markdown/</guid>
+      <description>&lt;p&gt;When I quit my job, everyone kept asking - ‘So, what next?’ to which I&#xA;politely replied - ‘Nothing decided yet’. In my mind, I already had the&#xA;plan though. I wanted to travel. Where to? I knew that as well. I wanted&#xA;to explore my vast and diverse country. I thought I will finish off my&#xA;country first and then will go on to the South-East Asian countries, as if it is&#xA;even possible to “finish off” seeing India. I have been on the road for&#xA;a couple of months now and I haven’t even scratched the surface of the&#xA;country. Every single place I have been so far had some novelty or other&#xA;to offer. Looking back, this journey has been life changing. The&#xA;experiences I have had - some good and some bad, gave me a lot of&#xA;perspective on my own life. Moreover, I realised how perfectly content I am just&#xA;being with myself. I always used to think I was an introvert. I was a&#xA;bit shy in public and never felt comfortable in a big group. Travelling&#xA;alone, when I got so comfortable being with myself, I started&#xA;getting along with people so well. Someone wise once told me - ‘If you&#xA;are not happy being with yourself, you can never be happy being with&#xA;other people’. I understand what he meant now.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Day I Decided to Travel</title>
+      <link>https://example.com/post/2016-01-10-the-day-i-decided-to-travel.markdown/</link>
+      <pubDate>Sun, 10 Jan 2016 15:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2016-01-10-the-day-i-decided-to-travel.markdown/</guid>
+      <description>&lt;p&gt;It was exactly 4 months ago, on the day after I met with an accident and&#xA;was temporarily crippled, which ironically was the day of my 23rd birthday,&#xA;I made the best decision of my life. I decided to&#xA;backpack in Europe as soon as I (literally) get back on my feet and, of course,&#xA;the consulate allows.&lt;/p&gt;&#xA;&lt;p&gt;Growing up, I haven&amp;rsquo;t traveled much even with my family, let&#xA;alone solo. I never realized I even had a flair for traveling till last&#xA;year, when I had my little adventure in Rajasthan. Going to Rome has&#xA;been on my bucket list since high school. Also, a bit embarrassing to admit,&#xA;I was scared to death that my parents will get me married to someone&#xA;in an year and I will never get to travel alone again. So on a sunny&#xA;Friday afternoon of September 4th 2015, I decided, just like that, to&#xA;travel to Italy the coming December and experience the European winter&#xA;and Christmas, no matter what. Boy, Am I happy I did!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>From Future Import PeARS, Part - 1</title>
+      <link>https://example.com/post/2015-09-18-from-future-import-pears-part-1.markdown/</link>
+      <pubDate>Sat, 19 Sep 2015 18:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2015-09-18-from-future-import-pears-part-1.markdown/</guid>
+      <description>&lt;p&gt;PeARS (or Peer-to-peer Agent for Reciprocated Search, if you would prefer that) is a distributed search engine project that I got involved with very recently. It is a very interesting and ambitious idea that &lt;a href=&#34;http://aurelieherbelot.net/&#34;&gt;Aurelie Herbelot&lt;/a&gt; thought of, to make searching more secure, accurate and very much user reliant. For an official intro from the skipper herself head over to her &lt;a href=&#34;http://aurelieherbelot.net/pears/&#34;&gt;blog&lt;/a&gt;. What I am trying to share via this post is the current status of the project, where we see PeARS down the road, how much we would love others to look into the project, and what not. Hopefully the first of many more come. :-)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rise above the storm, You will find the sunshine!</title>
+      <link>https://example.com/post/2015-09-02-rise-above-the-storm-you-will-find-the-sunshine/</link>
+      <pubDate>Wed, 02 Sep 2015 20:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2015-09-02-rise-above-the-storm-you-will-find-the-sunshine/</guid>
+      <description>&lt;p&gt;I haven&amp;rsquo;t blogged in the past 2 years. Whenever I thought of blogging, suddenly I realized the topic I want to write about was embarrassingly trivial(not that I used to write about world changing ideas before). Even if somehow I end up making my mind to blog about some random stuff, the next immediate thought would be: &amp;lsquo;Who would care?!&amp;rsquo;&lt;/p&gt;&#xA;&lt;p&gt;This made me not blog all this time, which I regret immensely. Today morning I started reading couple of my old blog posts and Boy, Was it entertaining! In some of them I was extremely naive, where as in some I was just plain dumb. As the blog posts progressed in time, I was changing in a lot many ways for good or for bad. When it ended I was so sad and so mad at myself for not blogging in the past one year specifically as this year has been one of my bests in this 23 years of existence. I have done stuff and seen stuff that I never thought I would do and see. I wish I had blogged about them right then and there. There has been storms and rains over which I rose. Can&amp;rsquo;t say I have seen the sunshine yet, but I am sure I will soon.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GSoC Weekly update</title>
+      <link>https://example.com/post/2013-08-26-gsoc-weeklystatus-update-9/</link>
+      <pubDate>Mon, 26 Aug 2013 19:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2013-08-26-gsoc-weeklystatus-update-9/</guid>
+      <description>&lt;p&gt;The work of mine has been correcting the reference glyph files and developing a web interface for the proposed framework. I had tried and made the reference files least buggy as possible. I have gone through the glyph names of almost all the 243 words in 4 fonts. I had to invest a lot of time on this especially due to one minor misunderstanding of mine on the multiple correct renderings of the words. And I hope it will get much refined after Rajeeshettan proof read it for 2 fonts as he has suggested.&lt;br&gt;&#xA;(I have changed the renderings of words with repham in Rachana such that the dotreph comes first. So words like these &lt;a href=&#34;http://troll.ws/image/2e3a872e&#34;&gt;http://troll.ws/image/2e3a872e&lt;/a&gt;, &lt;a href=&#34;http://troll.ws/image/469dd87a&#34;&gt;http://troll.ws/image/469dd87a&lt;/a&gt;, &lt;a href=&#34;http://troll.ws/image/5838dbec&#34;&gt;http://troll.ws/image/5838dbec&lt;/a&gt; although looks correct, will be in the wrongly rendered words list by harfbuzz.)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GSoC Weekly update</title>
+      <link>https://example.com/post/2013-08-17-gsoc-weekly-status-update-8/</link>
+      <pubDate>Sat, 17 Aug 2013 18:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2013-08-17-gsoc-weekly-status-update-8/</guid>
+      <description>&lt;p&gt;I have changed the framework interface from its previous form, although the previous front end automated_rendering_testing.py is still present in the repo. Now the new interface, rendering_testing.py, need all the file names to be provided as command line arguments. The user gets the convenience  of using the tab completion this way. The user will have to give as command line arguments 6 files (font  file, test cases file, reference file, rendering output and files to store output) and an optional directory name(if the engine is harfbuzz).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GSoC Weekly update</title>
+      <link>https://example.com/post/2013-08-11-gsoc-weekly-update-6/</link>
+      <pubDate>Sun, 11 Aug 2013 18:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2013-08-11-gsoc-weekly-update-6/</guid>
+      <description>&lt;p&gt;The past two weeks has been a blur with a lot of travelling and minimal Internet access. The following are the works I have been doing so far:&lt;/p&gt;&#xA;&lt;p&gt;The following modifications were asked to be made on the existing framework by my mentor after a Hangout session as part of the evaluations:&lt;/p&gt;&#xA;&lt;p&gt;1. Modify the comparison algorithm so as to show positive results for the words with multiple correct renderings - This modification is made. Now, the user can give multiple glyph names separated by comma in the reference file and if the rendering matches any one of these, the framework will return a positive response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GSoC Weekly update</title>
+      <link>https://example.com/post/2013-07-28-gsoc-weekly-update-5/</link>
+      <pubDate>Sun, 28 Jul 2013 15:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2013-07-28-gsoc-weekly-update-5/</guid>
+      <description>&lt;p&gt;The works this week has been a little slow with college exams and assignments. This is what I have done so far this week.&lt;/p&gt;&#xA;&lt;p&gt;I have completed the list of reference files containing glyph names of 243 words from four fonts each. Fonts being: Rachana, Meera, Suruma and Lohit-Malayalaam.&lt;/p&gt;&#xA;&lt;p&gt;The code has been modified to equip not only harfbuzz renderings but renderings from other engines line Uniscribe, provided the user will produce the output of the rendering engine herself/himself. I have created a Python package containing 2 modules each for testing and creating output. The main script automated_rendering_testing.py  will make use of this package to test and give the final result. To test the framework, one can just run ./automated_rendering_testing and then provide the necessary  information, when asked.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GSoC Weekly update</title>
+      <link>https://example.com/post/2013-07-20-gsoc-weekly-report-4/</link>
+      <pubDate>Sat, 20 Jul 2013 19:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2013-07-20-gsoc-weekly-report-4/</guid>
+      <description>&lt;p&gt;This week my main task was to migrate my code to Python. As of now I have implemented my algorithm in Python. Here is the link to the repo : &lt;a href=&#34;https://github.com/nandajavarma/Automated-Rendering-Testing&#34;&gt;https://github.com/nandajavarma/Automated-Rendering-Testing&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I have expanded my test cases&amp;rsquo; list a bit. Now it has 243 Malayalam words. I have manually created files with glyph names of these test cases in four fonts: Rachana, Meera, Suruma and Lohith-Malayalam in files names rachana-glyph.txt,  meera-glyph.txt etc. (It is still a bit buggy, so haven&amp;rsquo;t pushed the latest commit of this yet).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GSoC Weekly update</title>
+      <link>https://example.com/post/2013-07-14-gsoc-weekly-update-3/</link>
+      <pubDate>Sun, 14 Jul 2013 19:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2013-07-14-gsoc-weekly-update-3/</guid>
+      <description>&lt;p&gt;This week I&amp;rsquo;ve been working on generating a baseline glyphs file for 4 fonts: Rachana, Meera, Suruma and Lohith-Malayalam. I have selected some malayalam words from harfbuzz tree and Santhosh Thottingal&amp;rsquo;s test cases which I thought would be enough to test rendering problems. Then I started listing the glyph names of these files for each fonts in separate text files. To get the corresponding Unicode code point of each word, I wrote a small Java code. So I executed the script on each word, found all the code points and made 4 text files that contains the corresponding glyph names of the four fonts I mentioned earlier.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GSoC Weekly update</title>
+      <link>https://example.com/post/2013-06-29-gsoc-weekly-update-2/</link>
+      <pubDate>Sat, 29 Jun 2013 15:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2013-06-29-gsoc-weekly-update-2/</guid>
+      <description>&lt;p&gt;Coding period for GSoC has started the past week and I have been working on a very simple implementation of the proposal in C and two tiny bash scripts. My code is available here: &lt;a href=&#34;https://github.com/nandajavarma/Automated-Rendering-Testing&#34;&gt;https://github.com/nandajavarma/Automated-Rendering-Testing&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The first thing to be done to test using these scripts is create a file that contains a set of words to be tested to see if their rendering is correct. Here I have taken a sample test data file created by SMC a while ago (ml-harfbuzz-testdata,txt). Now pass this file through the script render_test.sh along with the necessary font file. That is:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GSoC - Community engagement period</title>
+      <link>https://example.com/post/2013-06-10-gsoc-community-engagement-period/</link>
+      <pubDate>Mon, 10 Jun 2013 18:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2013-06-10-gsoc-community-engagement-period/</guid>
+      <description>&lt;p&gt;GSoC 2013 approved project list was published on May 27th and the community engagement period was started from May 29th onwards. During this period the students are supposed to bond with their mentors, read the documentations and finalize your plans so you can have a head start with your project. The project topic for which I have got accepted for is &amp;ldquo;Automated rendering testing&amp;rdquo; and I will be completing that project under Swathanthra Malayalam Computing. I could learn a lot a new stuff so far during this community bonding period with a heavy deal of help from my mentor Rajeesh K Nambiar, although I haven&amp;rsquo;t started actual coding yet. I will try to explain my proposal status and further steps here, in detail.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bangalore Diaries</title>
+      <link>https://example.com/post/2013-04-29-bangalore-diaries/</link>
+      <pubDate>Mon, 29 Apr 2013 20:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2013-04-29-bangalore-diaries/</guid>
+      <description>&lt;p&gt;I remember times when I used to eagerly wait for my school final exams to get through with, so that I can enjoy the long summer holidays that follows. I have been missing that feeling for a while now. But this year I was impatiently waiting for summer to arrive because I knew what was waiting for me this summer season. A long month ahead filled with knowledge, fun and freedom. An internship in Bangalore! But once  I reached Bangalore city, I could feel that my all my excitement was turning into ashes. My nerves started kicking in (As it always does) and I started wondering &amp;lsquo;What the heck am I doing here?&amp;rsquo;. I am joining as a temp intern in this cool Australian Software company called &lt;a href=&#34;http://bangthetable.com&#34;&gt;Bang the table&lt;/a&gt; . I don&amp;rsquo;t know Ruby on Rails or even Ruby without which basically all I am eligible to apply for is probably the post of an office boy/girl (Which is already taken, FYI). I got a small place (very small) to live which I knew I would love from the first sight of it and got three amazing roommates, who have been trying so hard to make my Hindi speaking skills better till date.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MiniDebConf at NIT-C</title>
+      <link>https://example.com/post/2013-03-11-minidebconf-at-nit-c/</link>
+      <pubDate>Mon, 11 Mar 2013 19:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2013-03-11-minidebconf-at-nit-c/</guid>
+      <description>&lt;p&gt;Ever since I started loving FOSS, I really wanted to attend a FOSSMeet. And last month I got extremely lucky and could attend FOSSMeet at NIT-C. This year along with FOSSMeet a MiniDebConf was also arranged. A month prior to it, I was asked to give a Ruby gem packaging session at this MiniDebConf. I was quite nervous because this was the first FOSS event I ever attended and I was asked to give a session. But I knew it would be a great experience, So I decided to go with it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Patching using quilt</title>
+      <link>https://example.com/post/2013-01-07-patching-using-quilt/</link>
+      <pubDate>Mon, 07 Jan 2013 22:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2013-01-07-patching-using-quilt/</guid>
+      <description>&lt;p&gt;Patch files are files used to apply changes to the source code of a computer program. These changes may be for fixing bugs or for extending functionality. Quilt is a software utility for managing patches. Quilt is highly used among Linux kernal developers for managing patches. I started using quilt when I had to patch a piece of code while I was packaging for debian. Debian source packages usually use quilt. It has been incorporated into dpkg (Debian&amp;rsquo;s package manager).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Anti virus for Linux</title>
+      <link>https://example.com/post/2012-12-22-anti-virus-for-linux/</link>
+      <pubDate>Sat, 22 Dec 2012 21:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2012-12-22-anti-virus-for-linux/</guid>
+      <description>&lt;p&gt;Using an anti virus software in my Linux machine is something that I have not given much thought to. I know for the fact that the odds for a Linux system to get affected by a malware is pretty low. As of my understanding, the fact that Linux systems use open source software is a big bonus here. I mean, why would some one bother in sitting and writing a harmful program when everyone can see your code. Also crackers aim at a much elaborate target. I am sure they have better things to do than messing with some Linux users, which is only 2% of world computer users&amp;rsquo; population. Still, there are executable files that may get into your system via mails or flash drives. But in Linux, nothing will happen if you simply double click an executable file (provided you don&amp;rsquo;t have Wine installed). It won&amp;rsquo;t get executed unless you give it permission for execution. This is much unlikely to happen as Linux users are supposed to know what they are doing (Myself excluded!). And of course, there are many more reasons like user privileges, simplicity of kernal, etc.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quick tip - Installing a software in linux using files in .run format</title>
+      <link>https://example.com/post/2012-12-15-quick-tip-installing-a-package-in-linux-using-run-files/</link>
+      <pubDate>Fri, 14 Dec 2012 22:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2012-12-15-quick-tip-installing-a-package-in-linux-using-run-files/</guid>
+      <description>&lt;p&gt;The .run files are binary executable files. These files need to be executed to install the software. Such files are often considered as unsafe as we cannot find a way to uninstall them and we cannot say what the code will do to your system. But some games and apps are available that are packaged in this file format. Installing using .run file is rather easy.&lt;/p&gt;&#xA;&lt;p&gt;First of all download the required .run file.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Recovering lost password in Ubuntu 12.04</title>
+      <link>https://example.com/post/2012-12-10-recovering-lost-password-in-ubuntu-12-04/</link>
+      <pubDate>Mon, 10 Dec 2012 20:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2012-12-10-recovering-lost-password-in-ubuntu-12-04/</guid>
+      <description>&lt;p&gt;Yesterday, While I was trying to help my friend with his lost Ubuntu password, I explored the following two methods to do this quite easily.&lt;/p&gt;&#xA;&lt;p&gt;First method is using the recovery mode. This method is pretty simple.&lt;/p&gt;&#xA;&lt;p&gt;In the grub menu, select the recovery mode. Then in the menu that appear, scroll down to the option &amp;lsquo;Drop to root shell prompt&amp;rsquo;. Now you will get a shell prompt with root authentication at the bottom of the screen. Now before changing the password we have to remount the root in read write mode and for that run the following command.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GNU Project Debugger</title>
+      <link>https://example.com/post/2012-12-09-gnu-project-debugger/</link>
+      <pubDate>Sun, 09 Dec 2012 08:26:05 +0530</pubDate>
+      <guid>https://example.com/post/2012-12-09-gnu-project-debugger/</guid>
+      <description>&lt;p&gt;Today I came across a very nifty tool on my linux system. It is GNU Project Debugger a.k.a GDB. It is the standard debugger in UNIX. It lets you poke around your program and find out what is wrong with your program, if it crashed or gave you unexpected results. It can be used to debug programs written in Ada, Java, Pascal etc.( Although I haven&amp;rsquo;t tried it yet on anything other than C programs). So, yeah, it is a very powerful tool. I played around with it for a little while and it seems pretty easy. I am sure if I give it a little more effort, I sure can make best friends with GDB pretty soon. I wish I knew  GDB six months ago when I kept getting segmentation faults in my Data structures lab.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>perl warning Setting locale failed</title>
+      <link>https://example.com/post/2012-12-02-perl-warning-setting-locale-failed/</link>
+      <pubDate>Sun, 02 Dec 2012 17:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2012-12-02-perl-warning-setting-locale-failed/</guid>
+      <description>&lt;p&gt;Today when I was trying to build a package on a Debian VPS, It started reporting really annoying messages like these:&lt;/p&gt;&#xA;&lt;p&gt;perl: warning: Setting locale failed.&lt;br&gt;&#xA;perl: warning: Please check that your locale settings:&lt;br&gt;&#xA;LANGUAGE = (unset),&lt;br&gt;&#xA;LC_ALL = (unset),&lt;br&gt;&#xA;LANG = &amp;ldquo;en_US.UTF-8&amp;rdquo;&lt;br&gt;&#xA;are supported and installed on your system.&lt;br&gt;&#xA;perl: warning: Falling back to the standard locale (&amp;ldquo;C&amp;rdquo;).&lt;/p&gt;&#xA;&lt;p&gt;Then I was trying to install a new package, I got them again. Eventhough it doesn&amp;rsquo;t cause any harm, a screen full of such messages really is annoying. I googled it and found out that I am not the only person with this problem. I could find a couple of solutions for this and the easiest one worked for me. Run the following command in your terminal:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Debian Packaging</title>
+      <link>https://example.com/post/2012-11-30-debian-packaging/</link>
+      <pubDate>Fri, 30 Nov 2012 18:26:05 +0530</pubDate>
+      <guid>https://example.com/post/2012-11-30-debian-packaging/</guid>
+      <description>&lt;p&gt;Once you&amp;rsquo;ve picked a Gem and filed the ITP, it is time for you to start packaging. For this first run the command:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;gem2deb &lt;Gem name&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;gem2deb is actually the Ruby Debian packaging suite. It is a set of tools to create Debian packages from Ruby software distributed with RubyGems. It will automatically run the tests for Ruby1.8 and Ruby1.9 as well. For running these tests gem2deb look for a Rakefile or a .rb file or a .Yaml file inside the debian directory. Running these tests successfully has always been a headache for me. Still not at all good at it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Diaspora Packaging For Debian</title>
+      <link>https://example.com/post/2012-11-29-diaspora-packaging-for-debian/</link>
+      <pubDate>Thu, 29 Nov 2012 22:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2012-11-29-diaspora-packaging-for-debian/</guid>
+      <description>&lt;p&gt;Here are the steps I followed while  packaging diaspora for debian.&lt;/p&gt;&#xA;&lt;p&gt;My ultimate guide for debian-diaspora packaging has been this piratepad document :&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://piratepad.net/tu0H1eU2vH&#34;&gt;http://piratepad.net/tu0H1eU2vH&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Diaspora is built on Ruby on Rails platform. In Ruby programming language, the software packages are called &amp;lsquo;RubyGems&amp;rsquo; or simply &amp;lsquo;Gems&amp;rsquo;. Gems contain a packaged Ruby application or library. So basically our task is to convert this RubyGem into debian file format.&lt;/p&gt;&#xA;&lt;p&gt;There are numerous number of gems upon which diaspora is depending. To complete the debian packaging of whole diaspora software we will have to package each and every one of these gems. So our first step towards packaging is select a gem which is a dependency for diaspora and that hasn&amp;rsquo;t been packaged yet. You can easily pick one from the above mentioned pirate pad document.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Diaspora</title>
+      <link>https://example.com/post/2012-11-02-diaspora-im-lovin-it/</link>
+      <pubDate>Fri, 02 Nov 2012 08:26:05 +0530</pubDate>
+      <guid>https://example.com/post/2012-11-02-diaspora-im-lovin-it/</guid>
+      <description>&lt;p&gt;Howdy,&#xA;Social networking is an experience that most of us do love. The most recent addition to this colossal world of social networking is diaspora.&lt;/p&gt;&#xA;&lt;p&gt;Diaspora is a free personalized web server that can be installed and implemented as a distributed social network. In simple words, we own our own social networking site (More or less) . Unlike the other social networking sites, where the members are treated as mere products,in diaspora we are our own masters. Many pods/servers are maintained by numerous private groups/ individuals all around the world. We can create our account in any one of them or we can opt to run our own pod. And as it is distributed, We can connect to people with account in any other pods. Pretty cool, huh?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello, World</title>
+      <link>https://example.com/post/2012-10-30-helloworld/</link>
+      <pubDate>Tue, 30 Oct 2012 08:26:05 +0530</pubDate>
+      <guid>https://example.com/post/2012-10-30-helloworld/</guid>
+      <description>&lt;p&gt;Blogging! Not my cup of tea, probably. But still giving it a try.&lt;/p&gt;&#xA;&lt;p&gt;Cheers.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
