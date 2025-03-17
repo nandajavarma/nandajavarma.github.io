@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gcp on Nandaja.</title>
-    <link>http://localhost:1313/tags/gcp/</link>
+    <link>http://localhost:60425/tags/gcp/</link>
     <description>Recent content in Gcp on Nandaja.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>cn</language>
     <lastBuildDate>Sat, 17 Apr 2021 19:58:42 +0530</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/gcp/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:60425/tags/gcp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Using KubeIP to have static IP in GKE</title>
-      <link>http://localhost:1313/post/2021-04-17-using-kubeip-to-have-statis-ips-in-a-kubernetes-cluster/</link>
+      <link>http://localhost:60425/post/2021-04-17-using-kubeip-to-have-statis-ips-in-a-kubernetes-cluster/</link>
       <pubDate>Sat, 17 Apr 2021 19:58:42 +0530</pubDate>
       
-      <guid>http://localhost:1313/post/2021-04-17-using-kubeip-to-have-statis-ips-in-a-kubernetes-cluster/</guid>
+      <guid>http://localhost:60425/post/2021-04-17-using-kubeip-to-have-statis-ips-in-a-kubernetes-cluster/</guid>
       <description>&lt;p&gt;This is a small rant about a library I discovered some time ago  at work to use
 with our Kubernetes cluster manged by Google Cloud. The library is called &lt;a href=&#34;https://kubeip.com/&#34; title=&#34;Kube IP&#34;&gt;&lt;em&gt;Kube
 IP&lt;/em&gt;&lt;/a&gt; and I absolutely love it!&lt;/p&gt;

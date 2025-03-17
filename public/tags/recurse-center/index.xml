@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recurse Center on Nandaja.</title>
-    <link>http://localhost:1313/tags/recurse-center/</link>
+    <link>http://localhost:60425/tags/recurse-center/</link>
     <description>Recent content in Recurse Center on Nandaja.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>cn</language>
     <lastBuildDate>Sat, 04 Mar 2017 01:58:42 +0530</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/recurse-center/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:60425/tags/recurse-center/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Life as a Recurser - A fraction of the whole</title>
-      <link>http://localhost:1313/post/2017-03-04-life-as-a-recurser-a-fraction-of-the-whole.markdown/</link>
+      <link>http://localhost:60425/post/2017-03-04-life-as-a-recurser-a-fraction-of-the-whole.markdown/</link>
       <pubDate>Sat, 04 Mar 2017 01:58:42 +0530</pubDate>
       
-      <guid>http://localhost:1313/post/2017-03-04-life-as-a-recurser-a-fraction-of-the-whole.markdown/</guid>
+      <guid>http://localhost:60425/post/2017-03-04-life-as-a-recurser-a-fraction-of-the-whole.markdown/</guid>
       <description>&lt;p&gt;I have been living in New York City as one among the incredible Recurse Center community for the past four weeks. Which means one third of my time as a Recurser is behind me and I can&amp;rsquo;t think of a better occasion to blog about RC. I have been procrastinating blogging for so long, but today is the day I finally do it!&lt;/p&gt;
 &lt;p&gt;What is &lt;a href=&#34;https://www.recurse.com/&#34;&gt;Recurse Center&lt;/a&gt;, you ask?&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;The Recurse Center is a free, self-directed, educational retreat for
@@ -65,7 +65,7 @@ at least to know my options. An open mind is something I packed with me
 things I want to accomplish by myself. I sometimes feel like I don&amp;rsquo;t do
 much and that I get too side tracked but the fact that I keep learning
 and working makes me happy.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/RC.jpg&#34; alt=&#34;&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:60425/img/RC.jpg&#34; alt=&#34;&#34;&gt;
 &lt;em&gt;A usual Thursday evening at RC&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Don&amp;rsquo;t get the wrong impression that RC is just about learning 24/7 and
 burning yourself out. We have a lot of social events happening
@@ -78,7 +78,7 @@ outside! In the middle of march! I am not complaining though. It is
 cherry on top of the cake for me since this is the first time I am
 actually seeing snow showers! Also, I take kick-boxings lessons here. So
 much fun!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/kick-boxing.jpg&#34; alt=&#34;&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:60425/img/kick-boxing.jpg&#34; alt=&#34;&#34;&gt;
 &lt;em&gt;That&amp;rsquo;s just the way we roll. ;-)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;So things I look forward to doing in the next 8 weeks - Spring in New York(!!)
 Having a lot of fun, working on my transpiler, implementing things from Purely functional data

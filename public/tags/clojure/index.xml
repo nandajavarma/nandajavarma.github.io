@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Clojure on Nandaja.</title>
-    <link>http://localhost:1313/tags/clojure/</link>
+    <link>http://localhost:60425/tags/clojure/</link>
     <description>Recent content in Clojure on Nandaja.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>cn</language>
     <lastBuildDate>Sun, 30 Oct 2016 16:58:42 +0530</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/clojure/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:60425/tags/clojure/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Subjecting myself to a potential failure</title>
-      <link>http://localhost:1313/post/2016-10-30-subjecting-myself-to-a-potential-failure.markdown/</link>
+      <link>http://localhost:60425/post/2016-10-30-subjecting-myself-to-a-potential-failure.markdown/</link>
       <pubDate>Sun, 30 Oct 2016 16:58:42 +0530</pubDate>
       
-      <guid>http://localhost:1313/post/2016-10-30-subjecting-myself-to-a-potential-failure.markdown/</guid>
+      <guid>http://localhost:60425/post/2016-10-30-subjecting-myself-to-a-potential-failure.markdown/</guid>
       <description>&lt;p&gt;I am at a point now where I do not officially have a job. The work I do
 right now demands a better grasp on many programming fundamentals and on
 a programming language other than Python - preferably JVM based. I am

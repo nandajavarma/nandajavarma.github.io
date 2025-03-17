@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Perl on Nandaja.</title>
-    <link>http://localhost:1313/tags/perl/</link>
+    <link>http://localhost:60425/tags/perl/</link>
     <description>Recent content in Perl on Nandaja.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>cn</language>
     <lastBuildDate>Sun, 02 Dec 2012 17:58:42 +0530</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/perl/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:60425/tags/perl/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>perl warning Setting locale failed</title>
-      <link>http://localhost:1313/post/2012-12-02-perl-warning-setting-locale-failed/</link>
+      <link>http://localhost:60425/post/2012-12-02-perl-warning-setting-locale-failed/</link>
       <pubDate>Sun, 02 Dec 2012 17:58:42 +0530</pubDate>
       
-      <guid>http://localhost:1313/post/2012-12-02-perl-warning-setting-locale-failed/</guid>
+      <guid>http://localhost:60425/post/2012-12-02-perl-warning-setting-locale-failed/</guid>
       <description>&lt;p&gt;Today when I was trying to build a package on a Debian VPS, It started reporting really annoying messages like these:&lt;/p&gt;
 &lt;p&gt;perl: warning: Setting locale failed.&lt;br&gt;
 perl: warning: Please check that your locale settings:&lt;br&gt;

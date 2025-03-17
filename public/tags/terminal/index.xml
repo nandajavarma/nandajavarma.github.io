@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Terminal on Nandaja.</title>
-    <link>http://localhost:1313/tags/terminal/</link>
+    <link>http://localhost:60425/tags/terminal/</link>
     <description>Recent content in Terminal on Nandaja.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>cn</language>
     <lastBuildDate>Sat, 22 Dec 2012 21:58:42 +0530</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:60425/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Anti virus for Linux</title>
-      <link>http://localhost:1313/post/2012-12-22-anti-virus-for-linux/</link>
+      <link>http://localhost:60425/post/2012-12-22-anti-virus-for-linux/</link>
       <pubDate>Sat, 22 Dec 2012 21:58:42 +0530</pubDate>
       
-      <guid>http://localhost:1313/post/2012-12-22-anti-virus-for-linux/</guid>
+      <guid>http://localhost:60425/post/2012-12-22-anti-virus-for-linux/</guid>
       <description>&lt;p&gt;Using an anti virus software in my Linux machine is something that I have not given much thought to. I know for the fact that the odds for a Linux system to get affected by a malware is pretty low. As of my understanding, the fact that Linux systems use open source software is a big bonus here. I mean, why would some one bother in sitting and writing a harmful program when everyone can see your code. Also crackers aim at a much elaborate target. I am sure they have better things to do than messing with some Linux users, which is only 2% of world computer users&amp;rsquo; population. Still, there are executable files that may get into your system via mails or flash drives. But in Linux, nothing will happen if you simply double click an executable file (provided you don&amp;rsquo;t have Wine installed). It won&amp;rsquo;t get executed unless you give it permission for execution. This is much unlikely to happen as Linux users are supposed to know what they are doing (Myself excluded!). And of course, there are many more reasons like user privileges, simplicity of kernal, etc.&lt;/p&gt;
 &lt;p&gt;But this doesn&amp;rsquo;t mean that we don&amp;rsquo;t need an anti virus software installed. For instance, as in my case, I thought of  using an anti virus software when my windows using friends started blaming me for spreading malwares via flash drives. And also, being a music junkie, I constantly give my phone a hard time copying downloaded files to it from my computer.&lt;/p&gt;
 &lt;p&gt;After going through several forums, I decided to go for clamAV. It is an absolutely open source anti virus software. You can install the package clamav or clamtk (If you want the GUI).&lt;/p&gt;
@@ -33,10 +33,10 @@
     
     <item>
       <title>Quick tip - Installing a software in linux using files in .run format</title>
-      <link>http://localhost:1313/post/2012-12-15-quick-tip-installing-a-package-in-linux-using-run-files/</link>
+      <link>http://localhost:60425/post/2012-12-15-quick-tip-installing-a-package-in-linux-using-run-files/</link>
       <pubDate>Fri, 14 Dec 2012 22:58:42 +0530</pubDate>
       
-      <guid>http://localhost:1313/post/2012-12-15-quick-tip-installing-a-package-in-linux-using-run-files/</guid>
+      <guid>http://localhost:60425/post/2012-12-15-quick-tip-installing-a-package-in-linux-using-run-files/</guid>
       <description>&lt;p&gt;The .run files are binary executable files. These files need to be executed to install the software. Such files are often considered as unsafe as we cannot find a way to uninstall them and we cannot say what the code will do to your system. But some games and apps are available that are packaged in this file format. Installing using .run file is rather easy.&lt;/p&gt;
 &lt;p&gt;First of all download the required .run file.&lt;/p&gt;
 &lt;p&gt;For example, in your terminal run the command:&lt;/p&gt;
@@ -60,10 +60,10 @@
     
     <item>
       <title>Recovering lost password in Ubuntu 12.04</title>
-      <link>http://localhost:1313/post/2012-12-10-recovering-lost-password-in-ubuntu-12-04/</link>
+      <link>http://localhost:60425/post/2012-12-10-recovering-lost-password-in-ubuntu-12-04/</link>
       <pubDate>Mon, 10 Dec 2012 20:58:42 +0530</pubDate>
       
-      <guid>http://localhost:1313/post/2012-12-10-recovering-lost-password-in-ubuntu-12-04/</guid>
+      <guid>http://localhost:60425/post/2012-12-10-recovering-lost-password-in-ubuntu-12-04/</guid>
       <description>&lt;p&gt;Yesterday, While I was trying to help my friend with his lost Ubuntu password, I explored the following two methods to do this quite easily.&lt;/p&gt;
 &lt;p&gt;First method is using the recovery mode. This method is pretty simple.&lt;/p&gt;
 &lt;p&gt;In the grub menu, select the recovery mode. Then in the menu that appear, scroll down to the option &amp;lsquo;Drop to root shell prompt&amp;rsquo;. Now you will get a shell prompt with root authentication at the bottom of the screen. Now before changing the password we have to remount the root in read write mode and for that run the following command.&lt;/p&gt;
@@ -93,10 +93,10 @@
     
     <item>
       <title>perl warning Setting locale failed</title>
-      <link>http://localhost:1313/post/2012-12-02-perl-warning-setting-locale-failed/</link>
+      <link>http://localhost:60425/post/2012-12-02-perl-warning-setting-locale-failed/</link>
       <pubDate>Sun, 02 Dec 2012 17:58:42 +0530</pubDate>
       
-      <guid>http://localhost:1313/post/2012-12-02-perl-warning-setting-locale-failed/</guid>
+      <guid>http://localhost:60425/post/2012-12-02-perl-warning-setting-locale-failed/</guid>
       <description>&lt;p&gt;Today when I was trying to build a package on a Debian VPS, It started reporting really annoying messages like these:&lt;/p&gt;
 &lt;p&gt;perl: warning: Setting locale failed.&lt;br&gt;
 perl: warning: Please check that your locale settings:&lt;br&gt;

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Test on Nandaja.</title>
-    <link>http://localhost:1313/tags/test/</link>
+    <link>http://localhost:60425/tags/test/</link>
     <description>Recent content in Test on Nandaja.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>cn</language>
     <lastBuildDate>Tue, 30 Oct 2012 08:26:05 +0530</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/test/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:60425/tags/test/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello, World</title>
-      <link>http://localhost:1313/post/2012-10-30-helloworld/</link>
+      <link>http://localhost:60425/post/2012-10-30-helloworld/</link>
       <pubDate>Tue, 30 Oct 2012 08:26:05 +0530</pubDate>
       
-      <guid>http://localhost:1313/post/2012-10-30-helloworld/</guid>
+      <guid>http://localhost:60425/post/2012-10-30-helloworld/</guid>
       <description>&lt;p&gt;Blogging! Not my cup of tea, probably. But still giving it a try.&lt;/p&gt;
 &lt;p&gt;Cheers.&lt;/p&gt;
 </description>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Social Network on Nandaja.</title>
-    <link>http://localhost:1313/tags/social-network/</link>
+    <link>http://localhost:60425/tags/social-network/</link>
     <description>Recent content in Social Network on Nandaja.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>cn</language>
     <lastBuildDate>Fri, 02 Nov 2012 08:26:05 +0530</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/social-network/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:60425/tags/social-network/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Diaspora</title>
-      <link>http://localhost:1313/post/2012-11-02-diaspora-im-lovin-it/</link>
+      <link>http://localhost:60425/post/2012-11-02-diaspora-im-lovin-it/</link>
       <pubDate>Fri, 02 Nov 2012 08:26:05 +0530</pubDate>
       
-      <guid>http://localhost:1313/post/2012-11-02-diaspora-im-lovin-it/</guid>
+      <guid>http://localhost:60425/post/2012-11-02-diaspora-im-lovin-it/</guid>
       <description>&lt;p&gt;Howdy,
 Social networking is an experience that most of us do love. The most recent addition to this colossal world of social networking is diaspora.&lt;/p&gt;
 &lt;p&gt;Diaspora is a free personalized web server that can be installed and implemented as a distributed social network. In simple words, we own our own social networking site (More or less) . Unlike the other social networking sites, where the members are treated as mere products,in diaspora we are our own masters. Many pods/servers are maintained by numerous private groups/ individuals all around the world. We can create our account in any one of them or we can opt to run our own pod. And as it is distributed, We can connect to people with account in any other pods. Pretty cool, huh?&lt;/p&gt;

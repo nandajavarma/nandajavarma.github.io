@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Debian on Nandaja.</title>
-    <link>http://localhost:1313/tags/debian/</link>
+    <link>http://localhost:60425/tags/debian/</link>
     <description>Recent content in Debian on Nandaja.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>cn</language>
     <lastBuildDate>Fri, 30 Nov 2012 18:26:05 +0530</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:60425/tags/debian/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Debian Packaging</title>
-      <link>http://localhost:1313/post/2012-11-30-debian-packaging/</link>
+      <link>http://localhost:60425/post/2012-11-30-debian-packaging/</link>
       <pubDate>Fri, 30 Nov 2012 18:26:05 +0530</pubDate>
       
-      <guid>http://localhost:1313/post/2012-11-30-debian-packaging/</guid>
+      <guid>http://localhost:60425/post/2012-11-30-debian-packaging/</guid>
       <description>&lt;p&gt;Once you&amp;rsquo;ve picked a Gem and filed the ITP, it is time for you to start packaging. For this first run the command:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;gem2deb &lt;Gem name&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;gem2deb is actually the Ruby Debian packaging suite. It is a set of tools to create Debian packages from Ruby software distributed with RubyGems. It will automatically run the tests for Ruby1.8 and Ruby1.9 as well. For running these tests gem2deb look for a Rakefile or a .rb file or a .Yaml file inside the debian directory. Running these tests successfully has always been a headache for me. Still not at all good at it.&lt;/p&gt;
@@ -32,10 +32,10 @@
     
     <item>
       <title>Diaspora Packaging For Debian</title>
-      <link>http://localhost:1313/post/2012-11-29-diaspora-packaging-for-debian/</link>
+      <link>http://localhost:60425/post/2012-11-29-diaspora-packaging-for-debian/</link>
       <pubDate>Thu, 29 Nov 2012 22:58:42 +0530</pubDate>
       
-      <guid>http://localhost:1313/post/2012-11-29-diaspora-packaging-for-debian/</guid>
+      <guid>http://localhost:60425/post/2012-11-29-diaspora-packaging-for-debian/</guid>
       <description>&lt;p&gt;Here are the steps I followed while  packaging diaspora for debian.&lt;/p&gt;
 &lt;p&gt;My ultimate guide for debian-diaspora packaging has been this piratepad document :&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://piratepad.net/tu0H1eU2vH&#34;&gt;http://piratepad.net/tu0H1eU2vH&lt;/a&gt;&lt;/p&gt;
