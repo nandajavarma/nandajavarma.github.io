@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recurse Center on Nandaja.</title>
+    <link>https://example.com/tags/recurse-center/</link>
+    <description>Recent content in Recurse Center on Nandaja.</description>
+    <generator>Hugo</generator>
+    <language>cn</language>
+    <lastBuildDate>Sat, 04 Mar 2017 01:58:42 +0530</lastBuildDate>
+    <atom:link href="https://example.com/tags/recurse-center/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Life as a Recurser - A fraction of the whole</title>
+      <link>https://example.com/post/2017-03-04-life-as-a-recurser-a-fraction-of-the-whole.markdown/</link>
+      <pubDate>Sat, 04 Mar 2017 01:58:42 +0530</pubDate>
+      <guid>https://example.com/post/2017-03-04-life-as-a-recurser-a-fraction-of-the-whole.markdown/</guid>
+      <description>&lt;p&gt;I have been living in New York City as one among the incredible Recurse Center community for the past four weeks. Which means one third of my time as a Recurser is behind me and I can&amp;rsquo;t think of a better occasion to blog about RC. I have been procrastinating blogging for so long, but today is the day I finally do it!&lt;/p&gt;&#xA;&lt;p&gt;What is &lt;a href=&#34;https://www.recurse.com/&#34;&gt;Recurse Center&lt;/a&gt;, you ask?&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;The Recurse Center is a free, self-directed, educational retreat for&#xA;people who want to get better at programming, whether they&amp;rsquo;ve been&#xA;coding for three decades or three months.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
