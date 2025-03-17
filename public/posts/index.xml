@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Hugo Themes</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Hugo Themes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cn</language>
+    <copyright>Copyright © 2008–2019</copyright>
+    <lastBuildDate>Fri, 14 Mar 2025 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/blogging-tools/</link>
+      <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/blogging-tools/</guid>
+      <description>&lt;h2 id=&#34;my-heading&#34;&gt;My heading&lt;/h2&gt;
+&lt;p&gt;Some content here.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming Languages on Nandaja.</title>
+    <link>http://localhost:1313/tags/programming-languages/</link>
+    <description>Recent content in Programming Languages on Nandaja.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cn</language>
+    <lastBuildDate>Sun, 30 Oct 2016 16:58:42 +0530</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/programming-languages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Subjecting myself to a potential failure</title>
+      <link>http://localhost:1313/post/2016-10-30-subjecting-myself-to-a-potential-failure.markdown/</link>
+      <pubDate>Sun, 30 Oct 2016 16:58:42 +0530</pubDate>
+      
+      <guid>http://localhost:1313/post/2016-10-30-subjecting-myself-to-a-potential-failure.markdown/</guid>
+      <description>&lt;p&gt;I am at a point now where I do not officially have a job. The work I do
+right now demands a better grasp on many programming fundamentals and on
+a programming language other than Python - preferably JVM based. I am
+not a very good programmer or exceptionally intelligent. So I have
+decided to invest a huge deal of time and effort to learn what I should
+have learned ages ago.&lt;/p&gt;
+&lt;p&gt;Learning Lisp or one of its dialects by reading SICP is something that I
+have tried a zillion times starting from my second year in college and
+have failed miserably. Another major endeavor that I failed at was
+trying to implement all basic and advanced data structures using that
+Lisp dialect I just mentioned(Haskell was the obvious choice back then
+because, Hey, Lambda calculus!).&lt;/p&gt;
+&lt;p&gt;I have decided to try this again this time. I got really inspired by Eli
+Bendersky&amp;rsquo;s &lt;a href=&#34;http://eli.thegreenplace.net/tag/sicp&#34;&gt;notes&lt;/a&gt;
+that he made during his &amp;rsquo;taming SICP&amp;rsquo; endeavor. I am
+going to start SICP again by solving the problems in Clojure instead of
+Scheme. Why I&amp;rsquo;m so caught upon a Lisp, you ask? The first thing I ever
+read about functional programming languages is the way, in pure
+functional programming, the programs are written with such abstraction
+that it is like a black box, doing operation without worrying or caring
+about the outside world, without any side effects. This sounded very
+appealing to me. Also, someone told me Lisp is not for me, but for real
+geeks(I promise, this is just a tertiary or a quaternary reason).&lt;/p&gt;
+&lt;p&gt;I think Clojure is a beautiful looking language. Fell in love with the
+way it binds arguments to functions using square brackets at the very
+first sight. It is JVM based and suits perfectly for the &lt;a
+href=&#34;http://pearsearch.org&#34;&gt;PeARS&lt;/a&gt;
+requirements. Also, I was mind blown by the talks given by Rich Hickey.
+Hands down the best programming talks I&amp;rsquo;ve ever listened to(Check it out
+if you haven&amp;rsquo;t yet. Please. Starting &lt;a
+href=&#34;https://www.youtube.com/watch?v=rI8tNMsozo0&#34;&gt;here&lt;/a&gt;, maybe?).&lt;/p&gt;
+&lt;p&gt;So this is me putting myself out there. The game plan is laid:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Start reading the book, of course.&lt;/li&gt;
+&lt;li&gt;Solve the problems using Clojure.&lt;/li&gt;
+&lt;li&gt;Implement some algorithms and data structures in Clojure(I started learning Clojure a bit back).&lt;/li&gt;
+&lt;li&gt;Make notes every weak and publish. Even if it is - &amp;ldquo;I am such a loser, didn&amp;rsquo;t do anything this week&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br/&gt;&lt;br/&gt;Cheers!&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;P.S.&lt;/b&gt; The title might come out very pessimistic. But I love it when I
+rise above the expectations, even when it&amp;rsquo;s my own. :-)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

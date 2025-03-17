@@ -1,0 +1,11 @@
+[submodule "themes/kayal"]
+	path = themes/kayal
+	url = https://github.com/mnjm/kayal.git
+	branch = main
+[submodule "themes/hugo-vitae"]
+	path = themes/hugo-vitae
+	url = https://github.com/dataCobra/hugo-vitae
+	branch = main
+[submodule "themes/hugo-theme-tokiwa"]
+	path = themes/hugo-theme-tokiwa
+	url = https://github.com/heyeshuang/hugo-theme-tokiwa.git

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intro on Nandaja.</title>
+    <link>http://localhost:1313/tags/intro/</link>
+    <description>Recent content in Intro on Nandaja.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cn</language>
+    <lastBuildDate>Sat, 19 Sep 2015 18:58:42 +0530</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/intro/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>From Future Import PeARS, Part - 1</title>
+      <link>http://localhost:1313/post/2015-09-18-from-future-import-pears-part-1.markdown/</link>
+      <pubDate>Sat, 19 Sep 2015 18:58:42 +0530</pubDate>
+      
+      <guid>http://localhost:1313/post/2015-09-18-from-future-import-pears-part-1.markdown/</guid>
+      <description>&lt;p&gt;PeARS (or Peer-to-peer Agent for Reciprocated Search, if you would prefer that) is a distributed search engine project that I got involved with very recently. It is a very interesting and ambitious idea that &lt;a href=&#34;http://aurelieherbelot.net/&#34;&gt;Aurelie Herbelot&lt;/a&gt; thought of, to make searching more secure, accurate and very much user reliant. For an official intro from the skipper herself head over to her &lt;a href=&#34;http://aurelieherbelot.net/pears/&#34;&gt;blog&lt;/a&gt;. What I am trying to share via this post is the current status of the project, where we see PeARS down the road, how much we would love others to look into the project, and what not. Hopefully the first of many more come. :-)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/pear-logo.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;###What is PeARS?&lt;/p&gt;
+&lt;p&gt;Today, we have innumerable people using the Internet, each one of whom has access to an enormous amount of data. We are at a point of time where the zillion Internet users can help each other out to find information we are looking for rather than depending on centralized search engines some big corporate has set up for us. That&amp;rsquo;s exactly the idea behind PeARS. Say n number of people have installed PeARS in their local machine. Over time, PeARS will index the search history of your browser(This happens locally and also you can choose what to index). Each one of these pears, that&amp;rsquo;s what we call each installed system, will have a unique profile(anonymous or other wise based on the user preference) identifiable by another pear and can share their search index which other pears can use.&lt;/p&gt;
+&lt;p&gt;For example, Han is a skilled pilot who reads a lot of super awesome technical stuff about spaceships. He decides to index most of his browser history using PeARS and share it with other pears anonymously(he is trying to keep a low profile since Jabba the Hutt is looking for him). Luke, who just installed PeARS in his desktop, queries about Millennium Falcon. The distributional semantics algorithms in PeARS get search indices from pears which has same or similar terms. It clearly identifies Han Solo as a spaceship expert, gets his index along with others&amp;rsquo; and present it to Luke the fastest way possible. Luke starts reading about spaceships. He is not a bad pilot himself, now. :)&lt;br/&gt;
+Luke try looking up about coolest lightsabers, but unfortunately none of the jedis were using PeARS. He gets redirected to Duck Duck go for the results. Over time, his search history also gets indexed locally which he decides to share. He became the most resourceful pear on lightsabers. And it goes on&amp;hellip;&lt;/p&gt;
+&lt;p&gt;So like I mentioned earlier, it is very much reliant on the users of the big fat Internet. The links shared by each user helps PeARS rate them based on their resourcefulness on each topic and help others get most accurate results for their queries. No one tracking your search queries and no corporate telling you what to see.&lt;/p&gt;
+&lt;p&gt;It may sound incredibly ambitious, but the data each single one of us has access to makes this idea very much possible.&lt;/p&gt;
+&lt;p&gt;###Present Status&lt;/p&gt;
+&lt;p&gt;We are very much in the initial phase of the project. We have a prototype working which can index your local searches and queries from the couple of pears we have setup in our machines or from your local index.&lt;/p&gt;
+&lt;p&gt;###What next?&lt;/p&gt;
+&lt;p&gt;Most of the work is yet to be done. Presently, the system is not that efficient when it comes to performance, although search accuracy is near perfect. We are working on changing the data structures being used and making PeARS work faster. We plan an implementation very similar to BitTorrent to track and share data among the pears. We are yet to come up with the architecture.&lt;/p&gt;
+&lt;p&gt;###Who are we?&lt;/p&gt;
+&lt;p&gt;We are a bunch of people, who strongly believe that the future is distributed, working together to make a small step towards the next big change. The 5 of us involved with this project are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://aurelieherbelot.net/&#34;&gt;Aurelie Herbelot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://stultus.in&#34;&gt;Hrishikesh K.B.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Veesa Norman&lt;/li&gt;
+&lt;li&gt;Shobha Tyagi
+&lt;br/&gt;and of course me. :)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;We usually hangout at the IRC channel #pears in Freenode.&lt;/p&gt;
+&lt;p&gt;###Do we need help?&lt;/p&gt;
+&lt;p&gt;What kind of question is that? Of course, we do!
+&lt;br/&gt;The programming language we use is Python. We have hosted our code in Github, you can find the link below. We would be very much grateful to have people help us with developing, testing, documenting, publicizing, etc.&lt;/p&gt;
+&lt;p&gt;More details about the project to be followed in the next post.&lt;/p&gt;
+&lt;p&gt;###Some links&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. &lt;a href=&#34;https://github.com/minimalparts/PeARS&#34;&gt;code&lt;/a&gt;&lt;/strong&gt;
+&lt;br/&gt;&lt;strong&gt;2. &lt;a href=&#34;http://aurelieherbelot.net/pears/&#34;&gt;More about PeARS&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rise above the storm, You will find the sunshine!</title>
+      <link>http://localhost:1313/post/2015-09-02-rise-above-the-storm-you-will-find-the-sunshine/</link>
+      <pubDate>Wed, 02 Sep 2015 20:58:42 +0530</pubDate>
+      
+      <guid>http://localhost:1313/post/2015-09-02-rise-above-the-storm-you-will-find-the-sunshine/</guid>
+      <description>&lt;p&gt;I haven&amp;rsquo;t blogged in the past 2 years. Whenever I thought of blogging, suddenly I realized the topic I want to write about was embarrassingly trivial(not that I used to write about world changing ideas before). Even if somehow I end up making my mind to blog about some random stuff, the next immediate thought would be: &amp;lsquo;Who would care?!&amp;rsquo;&lt;/p&gt;
+&lt;p&gt;This made me not blog all this time, which I regret immensely. Today morning I started reading couple of my old blog posts and Boy, Was it entertaining! In some of them I was extremely naive, where as in some I was just plain dumb. As the blog posts progressed in time, I was changing in a lot many ways for good or for bad. When it ended I was so sad and so mad at myself for not blogging in the past one year specifically as this year has been one of my bests in this 23 years of existence. I have done stuff and seen stuff that I never thought I would do and see. I wish I had blogged about them right then and there. There has been storms and rains over which I rose. Can&amp;rsquo;t say I have seen the sunshine yet, but I am sure I will soon.&lt;/p&gt;
+&lt;p&gt;I learn from my mistakes and I believe it is better to be late than never to be. :-)&lt;br&gt;
+So, I intend to start blogging again about the technology I have been using(Itching to share some bizarre bias I have towards some of them), the things I learned, and what not.&lt;/p&gt;
+&lt;p&gt;I guess, I am in for a fun ride this time! Adieu! :-)&lt;/p&gt;
+&lt;p&gt;I used to blog **&lt;a href=&#34;http://nandajavarma.wordpress.com&#34;&gt;here&lt;/a&gt;** before. If anyone wants to checkout any of my older posts head over there or check them out in the &lt;a href=&#34;http://gemiam.in/posts/&#34;&gt;All Posts&lt;/a&gt; section.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
