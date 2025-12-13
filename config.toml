@@ -1,6 +1,6 @@
 DefaultContentLanguage = "en"
 author = "Nandaja Varma"
-baseURL = "https://example.com/"
+baseURL = "https://nandaja.com/"
 # copyright = "Copyleft  🄯 "
 disqusShortname = "gemiam"
 enableInlineShortcodes = true
@@ -40,6 +40,11 @@ weight = 1
 name = "Tags"
 url = "/tags/"
 weight = 2
+[[menu.main]]
+identifier = "garden"
+name = "Garden"
+url = "/garden/"
+weight = 3
 
 # [[menu.main]]
 # identifier = "about"

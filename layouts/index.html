@@ -1,0 +1,15 @@
+{{ define "main" }}
+<style>
+	.about-content h2 { margin-bottom: 1.5rem; }
+	.about-content h3 { margin-top: 2rem; margin-bottom: 1rem; }
+	.about-content p { margin-bottom: 1rem; }
+	.about-content hr { margin: 2rem 0; }
+	.about-content ul { margin-top: 0.5rem; }
+	.about-content li { margin-bottom: 0.5rem; }
+</style>
+<article class="font-serif about-content">
+	<section class="pb-6">
+		{{ .Content }}
+	</section>
+</article>
+{{ end }}

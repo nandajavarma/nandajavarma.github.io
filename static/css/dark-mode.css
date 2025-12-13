@@ -1,0 +1,62 @@
+/* Dark mode styles */
+html.dark body {
+  background-color: #1a202c;
+  color: #e2e8f0;
+}
+
+html.dark .bg-gray-100 {
+  background-color: #1a202c;
+}
+
+html.dark .bg-opacity-custom {
+  background-color: rgba(26, 32, 44, 0.75);
+}
+
+html.dark .text-gray-700 {
+  color: #e2e8f0;
+}
+
+html.dark .text-gray-600 {
+  color: #a0aec0;
+}
+
+html.dark .text-eucalyptus-600 {
+  color: #9ACFBF;
+}
+
+html.dark a {
+  color: #9ACFBF;
+}
+
+html.dark a:hover {
+  color: #C0E1D7;
+}
+
+html.dark hr {
+  border-color: #4a5568;
+}
+
+html.dark pre,
+html.dark code {
+  background-color: #2d3748;
+  color: #e2e8f0;
+}
+
+html.dark blockquote {
+  border-left-color: #4a5568;
+  color: #a0aec0;
+}
+
+html.dark .heading {
+  color: #e2e8f0;
+}
+
+html.dark #theme-toggle:hover {
+  background-color: #4a5568;
+}
+
+/* Smooth transition for theme changes */
+body,
+body * {
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
