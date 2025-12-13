@@ -1,0 +1,10 @@
+services:
+    hugo-server:
+        name: Hugo Dev Server
+        description: Hugo development server with live reload
+        commands:
+            start: hugo server --bind 0.0.0.0 --baseURL / --port 1313 --disableFastRender
+            ready: curl -s http://localhost:1313 > /dev/null
+        triggeredBy:
+            - postDevcontainerStart
+

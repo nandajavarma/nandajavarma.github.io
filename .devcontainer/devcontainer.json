@@ -1,0 +1,13 @@
+{
+	"name": "Hugo Blog",
+	"build": {
+		"context": ".",
+		"dockerfile": "Dockerfile"
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/hugo:1": {
+			"extended": true,
+			"version": "latest"
+		}
+	}
+}
