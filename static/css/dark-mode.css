@@ -51,6 +51,15 @@ html.dark .heading {
   color: #e2e8f0;
 }
 
+html.dark h1,
+html.dark h2,
+html.dark h3,
+html.dark h4,
+html.dark h5,
+html.dark h6 {
+  color: #9ACFBF;
+}
+
 html.dark #theme-toggle:hover {
   background-color: #4a5568;
 }

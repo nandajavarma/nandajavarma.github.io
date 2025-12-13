@@ -2,12 +2,12 @@ DefaultContentLanguage = "en"
 author = "Nandaja Varma"
 baseURL = "https://nandaja.com/"
 # copyright = "Copyleft  🄯 "
-disqusShortname = "gemiam"
+
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 googleAnalytics = "UA-FAKE" ## or "G-xxxxxxxx" in Google Analytics v4, in hugo v0.82+
-hasCJKLanguage = true
-languageCode = "cn"
+hasCJKLanguage = false
+languageCode = "en"
 theme = "hugo-theme-tokiwa"
 title = "Nandaja."
 
@@ -26,8 +26,10 @@ env = "production" # for Google Analytics and DISQUS.
 favicon = "img/favicon-32x32.png" 
 fuse = true # for searchbox. "JSON" must added to output contents. See [outputs].
 math = true # for introducing $KaTeX$
-useChineseFonts = true 
+useChineseFonts = false 
 postDateFormat = "2006-1-2"
+[params.utterances]
+repo = "nandajavarma/nandajavarma.github.io"
 
 [menu]
 # Shown in the side menu.
@@ -37,14 +39,10 @@ name = "Posts"
 url = "/post/"
 weight = 1
 [[menu.main]]
-name = "Tags"
-url = "/tags/"
-weight = 2
-[[menu.main]]
 identifier = "garden"
 name = "Garden"
 url = "/garden/"
-weight = 3
+weight = 2
 
 # [[menu.main]]
 # identifier = "about"
@@ -52,6 +50,10 @@ weight = 3
 # url = "/about/"
 # weight = 3
 
+[[menu.main]]
+name = "Tags"
+url = "/tags/"
+weight = 3
 [taxonomies]
 category = "categories"
 series = "series"

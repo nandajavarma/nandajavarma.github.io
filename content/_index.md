@@ -4,11 +4,11 @@ author = "Nandaja Varma"
 
 <img src="/img/me-2025.jpeg" alt="Nandaja" style="width: 150px; border-radius: 50%; float: right; margin: 0 0 1rem 1.5rem;">
 
-I'm an engineer who finds beauty in well-architected systems and simple solutions to difficult problems. Distributed systems, networking, and the layers of protocols that make the internet work — I keep digging deeper.
+I'm an engineer who finds beauty in well-architected systems and simple solutions to complex problems. Also distributed systems and the internet's plumbing — the fact that packets find their way home across the world still blows my mind.
 
-Currently, to scratch my creative itch, I help solve developer frustrations at [Ona](https://ona.com) (formerly Gitpod 🍊). My days involve infrastructure work, networking problems, systems debugging, and writing Go. If something's broken at the network layer, I'm probably the one staring at packet captures.
+Currently, I help solve developer frustrations at [Ona](https://ona.com) (formerly Gitpod 🍊). My days involve infrastructure work, networking problems, systems debugging, and writing Go. If something's broken at the network layer, I'm probably the one tracing iptables rules and chasing BGP misconfigurations.
 
-When I'm not doing that, I spend a lot of time tweaking my Emacs config to make my life easier — but ofcourse using vim mode everywhere.
+When I'm not doing any of that, I'm tweaking my Emacs config endlessly — in vim mode, naturally.
 
 ---
 
