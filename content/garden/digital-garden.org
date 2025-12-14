@@ -1,8 +1,8 @@
 #+TITLE: Digital Garden
+#+DATE: 2024-12-14
+#+TAGS: meta knowledge-management
 #+PUBLISH: true
 #+CATEGORY: garden
-
-* What is a Digital Garden?
 
 A digital garden is a collection of evolving notes and ideas, somewhere between a personal wiki and a blog. Unlike traditional blogs with polished, chronological posts, a garden grows organically—notes are planted as seeds, nurtured over time, and connected to form a knowledge graph.
 
