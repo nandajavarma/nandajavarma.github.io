@@ -37,12 +37,19 @@
 <hr />
 {{ with .Site.Params.utterances }}
 <div class="pb-2">
-    <script src="https://utteranc.es/client.js"
-        repo="{{ .repo }}"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
+    <div id="utterances-container"></div>
+    <script>
+        (function() {
+            var theme = document.documentElement.classList.contains('dark') ? 'github-dark' : 'github-light';
+            var s = document.createElement('script');
+            s.src = 'https://utteranc.es/client.js';
+            s.setAttribute('repo', '{{ .repo }}');
+            s.setAttribute('issue-term', 'pathname');
+            s.setAttribute('theme', theme);
+            s.setAttribute('crossorigin', 'anonymous');
+            s.async = true;
+            document.getElementById('utterances-container').appendChild(s);
+        })();
     </script>
 </div>
 <hr />
